@@ -1,0 +1,571 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>svg_poli_cdcensusraw_2001</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Layer identifies census divisions for the 2001 census. The file was received from the SVG Physical Planning department and was edited by TNC to better line up the boundaries with orthorectified imagery. The high-resolution coastline file was also added for a more detailed coastline. This file contains all the raw census data collected from the Census Department that was used in calculating the variables for the Socioeconomic Indices. A description of each census field can be found in the Field and Subtypes part of the metadata.</abstract>
+      <purpose>Developed for the 2001 census. Resource developed to help summarize all the raw census information that was used to calculate the socioeconomic indices. This information will help inform the Nature Conservancy's AWE project. Scientists around the world agree that climate change is indisputable. Impacts, including rising sea levels, increased storm intensity, warming temperatures and acidifying waters, dying coral reefs, shifting fish stocks, and incidence of flooding and drought, are already being felt, and are expected to continue and increase for decades to come. Nature holds some of the world’s best and most practical solutions to climate change, solutions that keep nature and people healthy, safe, and secure. The goal of At the Water’s Edge (AWE) is to demonstrate that governments and people in vulnerable coastal communities in Grenada and St. Vincent &amp; the Grenadines (SVG) can enhance their resilience to climate change by protecting, restoring and effectively managing their marine and coastal ecosystems (also known as ecosystem-based adaptation or EBA) and strengthening local capacity for adaptation.</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-61.461308</westbc>
+        <eastbc>-61.113801</eastbc>
+        <northbc>13.385573</northbc>
+        <southbc>12.528737</southbc>
+      </bounding>
+    </spdom>
+    <accconst>None</accconst>
+    <useconst>This work is licensed under a Creative Commons Attribution-Noncommercial-Share Alike 3.0 License (http://creativecommons.org/licenses/by-nc-sa/3.0/). By using this information, you agree to these terms. </useconst>
+    <datacred>Created by Phyiscal Planning Department and TNC. Data collected from the SVG Census Department.</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.0.3035</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>13</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Transverse Mercator</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-63.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500956</absres>
+            <ordres>0.000000002220024164500956</ordres>
+          </coordrep>
+          <plandu />
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>svg_poli_cdcensusraw_2001</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>T_CTRY1</attrlabl>
+        <attrdef>3 letter country identifier</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>T_CTRY2</attrlabl>
+        <attrdef>4 digit country identifier, same as calling code</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>C_CD</attrlabl>
+        <attrdef>Unique 2 digit census division identifier</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>T_CD</attrlabl>
+        <attrdef>Unique CD identifier consisting of 4 digit country code, and 2 digit C_CD</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>CDNAME</attrlabl>
+        <attrdef>Census Division Name</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AREASQM</attrlabl>
+        <attrdef>Area of census division in meters</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AREASQKM</attrlabl>
+        <attrdef>Area of census division in kilometers</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AREASQMI</attrlabl>
+        <attrdef>Area of census division miles</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_td1</attrlabl>
+        <attrdef>Type of Dwelling: Undivided private</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_td2</attrlabl>
+        <attrdef>Type of Dwelling: Part of private</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_td3</attrlabl>
+        <attrdef>Type of Dwelling: Flat, apartment, condominium</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_td4</attrlabl>
+        <attrdef>Type of Dwelling: Town house</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_td5</attrlabl>
+        <attrdef>Type of Dwelling: Double house/Duplex</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_td6</attrlabl>
+        <attrdef>Type of Dwelling: Combined business and Dwelling</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_td7</attrlabl>
+        <attrdef>Type of Dwelling: Barracks</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_td8</attrlabl>
+        <attrdef>Type of Dwelling: Other</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_td_t</attrlabl>
+        <attrdef>Type of Dwelling: Total</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_densqmi</attrlabl>
+        <attrdef>density per square mile of housing units</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_di_y</attrlabl>
+        <attrdef>Dwelling Insurance: yes</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_di_n</attrlabl>
+        <attrdef>Dwelling Insurance: no</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_di_dk</attrlabl>
+        <attrdef>Dwelling Insurance: don't know</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_di_ns</attrlabl>
+        <attrdef>Dwelling Insurance: not stated</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_di_tr</attrlabl>
+        <attrdef>Dwelling Insurance: total responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_di_t</attrlabl>
+        <attrdef>Dwelling Insurance: total responses minus the sum of "don't know" and "not stated" responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_dci_y</attrlabl>
+        <attrdef>Dwelling contents insured: yes</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_dci_n</attrlabl>
+        <attrdef>Dwelling contents insured: no</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_dci_p</attrlabl>
+        <attrdef>Dwelling contents insured: partially</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_dci_dk</attrlabl>
+        <attrdef>Dwelling contents insured: don't know</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_dci_tr</attrlabl>
+        <attrdef>Dwelling contents insured: total responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_dci_t</attrlabl>
+        <attrdef>Dwelling contents insured: total responses minus "don't know" responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_do1</attrlabl>
+        <attrdef>Dwelling ownership: Owned</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_do2</attrlabl>
+        <attrdef>Dwelling ownership: Squatted</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_do3</attrlabl>
+        <attrdef>Dwelling ownership: Rented-private</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_do4</attrlabl>
+        <attrdef>Dwelling ownership: Rented Government</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_do5</attrlabl>
+        <attrdef>Dwelling ownership: Leased</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_do6</attrlabl>
+        <attrdef>Dwelling ownership: Rent-free</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_do7</attrlabl>
+        <attrdef>Dwelling ownership: Other</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_do_dkns</attrlabl>
+        <attrdef>Dwelling ownership: don't know/not stated</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_do_tr</attrlabl>
+        <attrdef>Dwelling ownership: Total responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_do_t</attrlabl>
+        <attrdef>Dwelling ownership: Total responses minus "don't know" responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_radio_y</attrlabl>
+        <attrdef>Radio available: Total occupied housing units with radio available</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_radio_n</attrlabl>
+        <attrdef>Radio available: Occupied housing units with no radio available</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_radio_ns</attrlabl>
+        <attrdef>Radio available: Occupied housing units with radio availability not stated</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_radio_tr</attrlabl>
+        <attrdef>Radio available: Occupied housing units with radio available: total responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_radio_t</attrlabl>
+        <attrdef>Radio available: Occupied housing units with radio available: total responses minus "not stated" responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_tele_y</attrlabl>
+        <attrdef>Telephone available: Occupied housing units with telephone available</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_tele_n</attrlabl>
+        <attrdef>Telephone available: Occupied housing units with no telephone available</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_tele_ns</attrlabl>
+        <attrdef>Telephone available: Occupied housing units with telephone availability not stated</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_tele_tr</attrlabl>
+        <attrdef>Telephone available: Occupied housing units with telephone available: total responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_tele_t</attrlabl>
+        <attrdef>Telephone available: Occupied housing units with telephone available: total responses minus "not stated" responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_cell_y</attrlabl>
+        <attrdef>Cell Telephone available: Occupied housing units with cellular telephone available</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_cell_n</attrlabl>
+        <attrdef>Cell Telephone available: Occupied housing units with no cellular telephone available</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_cell_ns</attrlabl>
+        <attrdef>Cell Telephone available: Occupied housing units with cellular telephone availability not stated</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_cell_tr</attrlabl>
+        <attrdef>Cell Telephone available: Occupied housing units with cellular telephone available: total responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_cell_t</attrlabl>
+        <attrdef>Cell Telephone available: Occupied housing units with cellular telephone available: total responses minus "not stated" responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_int_y</attrlabl>
+        <attrdef>Internet access: Occupied housing units with internet access</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_int_n</attrlabl>
+        <attrdef>Internet access: Occupied housing units with no internet access</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_int_ns</attrlabl>
+        <attrdef>Internet access: Occupied housing units with internet access not stated</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_int_tr</attrlabl>
+        <attrdef>Internet access: Total responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_int_t</attrlabl>
+        <attrdef>Internet access: Total responses minus "not stated" responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_vehic_y</attrlabl>
+        <attrdef>Automobiles available: Occupied housing units with vehicle available (sum of all housing units with 1 or more vehicles available)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_vehic0</attrlabl>
+        <attrdef>Automobiles available: Occupied housing units with no vehicle available</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_vehic1</attrlabl>
+        <attrdef>Automobiles available: Occupied housing units with 1 vehicle available</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_vehic2</attrlabl>
+        <attrdef>Automobiles available: Occupied housing units with 2 vehicles available</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_vehic3</attrlabl>
+        <attrdef>Automobiles available: Occupied housing units with 3 vehicles available</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_vehic4p</attrlabl>
+        <attrdef>Automobiles available: Occupied housing units with 4 or more vehicles available</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_vehic_ns</attrlabl>
+        <attrdef>Automobiles available: Occupied housing units with vehicle availability not stated</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_vehic_tr</attrlabl>
+        <attrdef>Automobiles available: Occupied housing units with vehicle available: total responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_vehic_t</attrlabl>
+        <attrdef>Automobiles available: Occupied housing units with vehicle available: total responses minus "not stated" responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_smale</attrlabl>
+        <attrdef>Population: male</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_sfemale</attrlabl>
+        <attrdef>Population: female</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_stotal</attrlabl>
+        <attrdef>Total population</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_popsqmi</attrlabl>
+        <attrdef>Population Density per square mile</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_age1</attrlabl>
+        <attrdef>Age: 0-4</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_age2</attrlabl>
+        <attrdef>Age: 5-9</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_age3</attrlabl>
+        <attrdef>Age: 10-14</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_age4</attrlabl>
+        <attrdef>Age: 15-19</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_age5</attrlabl>
+        <attrdef>Age: 20-24</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_age6</attrlabl>
+        <attrdef>Age: 25-29</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_age7</attrlabl>
+        <attrdef>Age: 30-34</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_age8</attrlabl>
+        <attrdef>Age: 35-39</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_age9</attrlabl>
+        <attrdef>Age: 40-44</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_age10</attrlabl>
+        <attrdef>Age: 45-49</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_age11</attrlabl>
+        <attrdef>Age: 50-54</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_age12</attrlabl>
+        <attrdef>Age: 55-59</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_age13</attrlabl>
+        <attrdef>Age: 60-64</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_age14</attrlabl>
+        <attrdef>Age: 65-69</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_age15</attrlabl>
+        <attrdef>Age: 70-74</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_age16</attrlabl>
+        <attrdef>Age: 75-79</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_age17</attrlabl>
+        <attrdef>Age: 80 and OVER</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_age_tr</attrlabl>
+        <attrdef>Age: total responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_ins_y</attrlabl>
+        <attrdef>insurance status: yes (sum of different types of insurance)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_ins_n</attrlabl>
+        <attrdef>insurance status: no (subtracted sum total of insurance from total population)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_ins_t</attrlabl>
+        <attrdef>insurance status: total (total population)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_edin_yf</attrlabl>
+        <attrdef>Currently attending an educational institution: yes full time</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_edin_yp</attrlabl>
+        <attrdef>Currently attending an educational institution: yes part time</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_edin_n</attrlabl>
+        <attrdef>Currently attending an educational institution: no</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_edin_dn</attrlabl>
+        <attrdef>Currently attending an educational institution: don’t know</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_edin_tr</attrlabl>
+        <attrdef>Currently attending an educational institution: total responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_edin_t</attrlabl>
+        <attrdef>Currently attending an educational institution: total responses minus "don't know" responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_ed1</attrlabl>
+        <attrdef>highest level of education: Daycare</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_ed2</attrlabl>
+        <attrdef>highest level of education: Pre-school</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_ed3</attrlabl>
+        <attrdef>highest level of education: Pre-primary (Infant)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_ed4</attrlabl>
+        <attrdef>highest level of education: Primary grade (1-3)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_ed5</attrlabl>
+        <attrdef>highest level of education: Primary grade (4-6)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_ed6</attrlabl>
+        <attrdef>highest level of education: Secondary</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_ed7</attrlabl>
+        <attrdef>highest level of education: Pre-University/Post Secondary/College</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_ed8</attrlabl>
+        <attrdef>highest level of education: University</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_ed9</attrlabl>
+        <attrdef>highest level of education: Other</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_ed_none</attrlabl>
+        <attrdef>highest level of education: None</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_ed_ns</attrlabl>
+        <attrdef>highest level of education: Not stated</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_ed_tr</attrlabl>
+        <attrdef>highest level of education: Total responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_ed_t</attrlabl>
+        <attrdef>highest level of education: Total responses minus "not stated" responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_relig_s</attrlabl>
+        <attrdef>Some Religious affiliation (sum of all types of religion)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_relig_n</attrlabl>
+        <attrdef>No religious affiliation</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_relig_ns</attrlabl>
+        <attrdef>Religious affiliation: not stated</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_relig_o</attrlabl>
+        <attrdef>Religious affiliation: other</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_relig_tr</attrlabl>
+        <attrdef>Religious affiliation: total responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_relig_t</attrlabl>
+        <attrdef>Religious affiliation: total responses minus "not stated" responses</attrdef>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20130129</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

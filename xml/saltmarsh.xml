@@ -1,0 +1,189 @@
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?><metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin></origin>
+				<pubdate>June 2009</pubdate>
+				<title Sync="TRUE">Salt_Marsh</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<onlink Sync="TRUE">\\MAPS4\C$\arcgisserver\data\ecology\EcologyReferenceData\ecologyreferencedata.gdb</onlink>
+				<ftname Sync="TRUE">Salt_Marsh</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>Ecosystem-based, marine spatial planning offers great opportunity to place information representing multiple management objectives into a flexible decision support framework. This dataset is part of a larger framework used to represent biodiversity conservation and coastal hazard objectives in Suffolk County, New York, USA. It is called Coastal Resilience. The Long Island shores have highly developed lands and valuable marine resources in the coastal zone. Much of the private property is only inches above sea level, placing millions of dollars in public and private funds at risk. This also threatens wetlands and other coastal ecosystems that provide habitat, natural buffers to storms and other services. Despite a growing awareness of global climate change, local decision makers still lack the tools to examine different management objectives as sea levels rise and coastal hazards increase. The Coastal Resilience project was designed to address these issues by providing tools to better inform decision-making. Coastal resilience describes the self-organizing ability of a coast to respond in a sustainable manner to morphological, biological and/or socio-economic pressures. A primary goal of the project is to design, build and discuss future climatic scenarios that account for sea level rise and storm surge while also identifying human communities that are vulnerable and at risk. The project also addresses the role of natural communities such as tidal marshes that may be more resilient to climatic stress and thereby provide protection to humans if they in turn are afforded protection. The Nature Conservancy, working with partners including the NASA Goddard Institute for Space Studies, the Association of State Floodplain Managers, the Pace Land Use Law Center and NOAA's Coastal Services Center have delivered this information via an internet mapping application to help local decision makers keep the environment and public safety in mind. Coastal Resilience Long Island (http://coastalresilience.org) is a unique interactive web mapping tool that provides three types of information to meet this need. First, it allows users to visualize the issue by exploring flooding scenarios resulting from sea level rise and storm surge. Second, users can see what?s at risk by viewing the interaction of flooding with ecological and socioeconomic resources. Finally, Coastal Resilience helps users identify what can be done to meet the joint objectives of ecosystem protection and community resilience. The information in Coastal Resilience is presented without hype or hyperbole in a user-friendly framework designed to inform the decision making process.</abstract>
+			<purpose>This dataset illustrates the various marsh types found within the Long Island South Shore study area.  Marshes are classified by type as identified by the NY DEC in the 1974 wetland inventory dataset.</purpose>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>1974</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-73.425326</westbc>
+				<eastbc Sync="TRUE">-71.885521</eastbc>
+				<northbc Sync="TRUE">41.093119</northbc>
+				<southbc Sync="TRUE">40.596342</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">1143800.235677</leftbc><rightbc Sync="TRUE">1567197.504366</rightbc><bottombc Sync="TRUE">163525.692027</bottombc><topbc Sync="TRUE">338062.312114</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt>
+				<themekey>biodiversity</themekey>
+				<themekey>biodiversity conservation</themekey>
+				<themekey>coastal hazards</themekey>
+				<themekey>decision support</themekey>
+				<themekey>web mapping services</themekey>
+				<themekey>hazards</themekey>
+			</theme>
+			<place>
+				<placekey>Suffolk County</placekey>
+				<placekey>New York</placekey>
+				<placekey>USA</placekey>
+			</place>
+			<stratum>
+			</stratum>
+			<temporal>
+			</temporal>
+		</keywords>
+		<accconst>The Nature Conservancy reserves all rights in data provided. All data are provided as is. This is not a survey quality dataset. The Nature Conservancy makes no warranty as to the currency, completeness, accuracy or utility of any specific data. This disclaimer applies both to individual use of the data and aggregate use with other data. It is strongly recommended that careful attention be paid to the contents of the metadata file associated with these data.</accconst>
+		<useconst>The Nature Conservancy shall not be held liable for improper or incorrect use of the data described and/or contained herein. Any sale, distribution, loan, or offering for use of these digital data, in whole or in part, is prohibited without the approval of the Nature Conservancy. The use of these data to produce other GIS products and services with the intent to sell for a profit is prohibited without the written consent of the Nature Conservancy. All parties receiving these data must be informed of these restrictions. The Nature Conservancy shall be acknowledged as data contributors to any reports or other products derived from these data.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Sarah Newkirk</cntper>
+					<cntorg>The Nature Conservancy Long Island</cntorg>
+				</cntperp>
+				<cntpos>Coastal Program Director</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>250 Lawrence Hill Road</address>
+					<city>Cold Spring Harbor</city>
+					<state>NY</state>
+					<postal>11724</postal>
+				</cntaddr>
+				<cntvoice>(631) 367-3384 Ext. 127</cntvoice>
+				<cntemail>snewkirk@tnc.org</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<native Sync="TRUE">Microsoft Windows 2000 Version 5.2 (Build 3790) Service Pack 2; ESRI ArcCatalog 9.3.1.1850</native>
+		<natvform Sync="TRUE">File Geodatabase Feature Class</natvform></idinfo>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc>Categorized by attribute "TWCAT" showing the following marsh types:
+a.	Formerly connected marsh
+b.	Freshwater marsh
+c.	High marsh
+d.	Low marsh</procdesc>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>C:\arcgisserver\data\metadata.xml</srcused>
+				<procdate>20090807</procdate>
+				<proctime>12531100</proctime>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\arcgisserver\data\metadata_impediment.xml</srcused><procdate Sync="TRUE">20090807</procdate><proctime Sync="TRUE">16244400</proctime></procstep></lineage>
+		<attracc><attraccr>This dataset is intended to be used to illustrate existing tidal marsh distribution throughout Suffolk County, Long Island.  This dataset is dated (1974 with minimal updates in 1995), but remains the primary spatial dataset upon which regulatory decisions are made within Suffolk County.  Due to the historical nature of this dataset, this dataset likely contains inaccuracies as the spatial distribution of marshes in Suffolk County has undoubtedly changed over the past 30 years.  The Coastal Resilience web application will serve updated tidal marsh data as it becomes available.</attraccr></attracc></dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="Salt_Marsh">
+				<sdtstype Sync="TRUE">G-polygon</sdtstype>
+				<ptvctcnt Sync="TRUE">1714</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="Salt_Marsh"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polygon</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">1714</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.000328</absres>
+						<ordres Sync="TRUE">0.000328</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">survey feet</plandu>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Lambert Conformal Conic</mapprojn><lambertc><stdparll Sync="TRUE">40.666667</stdparll><stdparll Sync="TRUE">41.033333</stdparll><longcm Sync="TRUE">-74.000000</longcm><latprjo Sync="TRUE">40.166667</latprjo><feast Sync="TRUE">984250.000000</feast><fnorth Sync="TRUE">0.000000</fnorth></lambertc></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_StatePlane_New_York_Long_Island_FIPS_3104_Feet</projcsn></cordsysn></horizsys>
+		<vertdef><altsys><altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc><altres Sync="TRUE">0.000100</altres></altsys></vertdef></spref>
+	<eainfo>
+		<detailed Name="Salt_Marsh">
+			<enttyp>
+				<enttypl Sync="TRUE">Salt_Marsh</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">1714</enttypc></enttyp>
+			<attr><attrlabl Sync="TRUE">OBJECTID_1</attrlabl><attalias Sync="TRUE">OBJECTID_1</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr><attrlabl Sync="TRUE">OBJECTID</attrlabl><attalias Sync="TRUE">OBJECTID</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">TWTYPE</attrlabl><attalias Sync="TRUE">TWTYPE</attalias><attrtype Sync="TRUE">SmallInteger</attrtype><attwidth Sync="TRUE">2</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">YEAR_</attrlabl><attalias Sync="TRUE">YEAR_</attalias><attrtype Sync="TRUE">SmallInteger</attrtype><attwidth Sync="TRUE">2</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">TWCAT</attrlabl><attalias Sync="TRUE">TWCAT</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">20</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Shape_Leng</attrlabl><attalias Sync="TRUE">Shape_Leng</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">PhragPrese</attrlabl><attalias Sync="TRUE">PhragPrese</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">20</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ID</attrlabl><attalias Sync="TRUE">ID</attalias><attrtype Sync="TRUE">SmallInteger</attrtype><attwidth Sync="TRUE">2</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">AREA</attrlabl><attalias Sync="TRUE">AREA</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">PERIMETER</attrlabl><attalias Sync="TRUE">PERIMETER</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Shape_P_A</attrlabl><attalias Sync="TRUE">Shape_P_A</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SignificantSpecies</attrlabl><attalias Sync="TRUE">SignificantSpecies</attalias><attrtype Sync="TRUE">SmallInteger</attrtype><attwidth Sync="TRUE">2</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Shape_Length</attrlabl><attalias Sync="TRUE">Shape_Length</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Length of feature in internal units.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Shape_Area</attrlabl><attalias Sync="TRUE">Shape_Area</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv></attr></detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntper>Sarah Newkirk</cntper>
+					<cntorg>The Nature Conservancy, Long Island Chapter</cntorg>
+				</cntperp>
+				<cntvoice>(631) 367-3384</cntvoice>
+			</cntinfo>
+		</distrib>
+		<resdesc>Not distributed at present.</resdesc>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize>2.231</transize>
+				</digtinfo>
+			</digform>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20090811</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>The Nature Conservancy Long Island</cntorg>
+					<cntper>Sarah Newkirk</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>250 Lawrence Hill Road</address>
+					<city>Cold Spring Harbor</city>
+					<state>NY</state>
+					<postal>11724</postal>
+				</cntaddr>
+				<cntvoice>(631) 367-3384 Ext. 127</cntvoice>
+				<cntemail>snewkirk@tnc.org</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><MetaID>{73B30580-0F49-4577-8D4D-611885283A14}</MetaID><CreaDate>20090807</CreaDate><CreaTime>16244400</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20090811</SyncDate><SyncTime>13083900</SyncTime><ModDate>20090811</ModDate><ModTime>13083900</ModTime></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows 2000 Version 5.2 (Build 3790) Service Pack 2; ESRI ArcCatalog 9.3.1.1850</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">Salt_Marsh</resTitle></idCitation><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">1143800.235677</westBL><eastBL Sync="TRUE">1567197.504366</eastBL><northBL Sync="TRUE">338062.312114</northBL><southBL Sync="TRUE">163525.692027</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-73.425326</westBL><eastBL Sync="TRUE">-71.885521</eastBL><northBL Sync="TRUE">41.093119</northBL><southBL Sync="TRUE">40.596342</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\MAPS4\C$\arcgisserver\data\ecology\EcologyReferenceData\ecologyreferencedata.gdb</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc></distorTran><distorFormat><formatName Sync="TRUE">File Geodatabase Feature Class</formatName></distorFormat></distributor></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">NAD_1983_StatePlane_New_York_Long_Island_FIPS_3104_Feet</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="Salt_Marsh"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">1714</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20090811</mdDateSt></metadata>

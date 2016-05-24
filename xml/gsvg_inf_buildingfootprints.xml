@@ -1,0 +1,112 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Building Footprints</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The building footprints file was created for the AWE Project being run by the Nature Conservancy. Two (2) footprint datasets were used in creating just this one file. 1.) One from SVG which was digitized from the 2007 aerial imagery. 2.) One from the southwest portion of Grenada that was digitized from IKONOS imagery as part of the CDERA project. The rest of Grenada was digitized by feature analsyt tool in ArcGIS by Teresa Gomez of BYU under contract by the Nature Conservancy.</abstract>
+      <purpose>Resource developed to locate and visualize the building infrastructure.  This information will help inform the Nature Conservancy's AWE project.</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-61.797604</westbc>
+        <eastbc>-61.115007</eastbc>
+        <northbc>13.383594</northbc>
+        <southbc>11.986544</southbc>
+      </bounding>
+    </spdom>
+    <accconst>None</accconst>
+    <useconst>The SVG National GIS (NGIS), composed of both governmental and non-governmental stakeholders, provides a Metadatabase to maintain, catalogue and distribute the Territory’s geographic databases and, in cooperation with other organizations, is committed to offering its users accurate, useful, and current information about the territory. Although every effort has been made to ensure the accuracy of information, errors and conditions originating from physical sources used to develop the corporate database may be reflected in the data supplied. Users of this data must be aware of data conditions and bear responsibility for the appropriate use of the information with respect to possible errors, original map scale, collection methodology, currency of data, and other conditions specific to certain data. The SVG NGIS and its stakeholders make no warranty, either expressed or implied, as to the accuracy or completeness of any information archived and distributed by the NGIS. The digital information is distributed on a "as is" basis, and the SVG NGIS and its stakeholders shall not be responsible for any claims attributable to errors, omissions or other inaccuracies in the information. In no event shall SVG NGIS or its stakeholders be liable for direct, indirect, special, incidental or consequential loss or damage of any nature caused to any person, party or entity as a result of use of the information. SVG NGIS and its stakeholders do not support secondary distribution of this data. The use of trade names or commercial products does not constitute their endorsement by the SVG NGIS, its stakeholders or SVG Government. The SVG NGIS hereby disclaims liability for any such loss or damage.</useconst>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcGIS 10.0.3.3600</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>88227</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Transverse Mercator</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-63.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500956</absres>
+            <ordres>0.000000002220024164500956</ordres>
+          </coordrep>
+          <plandu />
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>gsvg_inf_buildingfootprints</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Shapefile</formname>
+        </digtinfo>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20120626</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

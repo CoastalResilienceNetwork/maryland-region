@@ -1,0 +1,137 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>gsvg_moth_landfills</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The landfills file was created for the AWE Project being run by the Nature Conservancy. Three (3) landfill datasets were used in creating just this one file. 1.) The Grenada dump file which was clipped (collected for the gap assessment). 2.) The SVG dump file (collected for the gap assessment). 3.) Kim Baldwin's work through the MarSIS project.</abstract>
+      <purpose>These data layers were compiled from original data files created for a protected area gap assessment for the countries of Grenada and St. Vincent and Grenadines and for the MarSIS project. The gap project identified critical conservation targets and threats for these countries working with existing data layers from local governments filling data gaps through data creation through digitizing off high-resolution imagery. The objectives were to a) Develop a GIS-based geographic extent of the study area based, but not limited to, bathymetry, and other physiographic factors; b) Compile all existing GIS data layers for all terrestrial, freshwater, and marine biological conservation targets and socioeconomic threats; c) Analyze existent GIS data layers, identify gaps and fill them by creating data from primary image sources; d) Produce a final geodatabase and associated metadata. The Grenadines Marine Resource Space-use Information System (MarSIS) brings together a variety of social, economic and environmental information drawn from both scientific and local knowledge into a single information system. Therefore areas important for livelihoods and conservation can be better identified and this unique information used to assist management and planning sustainable development across the Grenadine island chain. </purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-61.747975</westbc>
+        <eastbc>-61.161911</eastbc>
+        <northbc>13.249459</northbc>
+        <southbc>12.102599</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Dumps</themekey>
+        <themekey>Waste Management</themekey>
+        <themekey>Garbage</themekey>
+        <themekey>Economy</themekey>
+        <themekey>landfill</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The Nature Conservancy shall not be held liable for improper or incorrect use of the data described and/or contained herein. Any sale, distribution, loan, or offering for use of these digital data, in whole or in part, is prohibited without the approval of the Nature Conservancy. The use of these data to produce other GIS products and services with the intent to sell for a profit is prohibited without the written consent of the Nature Conservancy. All parties receiving these data must be informed of these restrictions. The Nature Conservancy shall be acknowledged as data contributors to any reports or other products derived from these data.</useconst>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcGIS 10.0.3.3600</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>24</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Transverse Mercator</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-63.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500956</absres>
+            <ordres>0.000000002220024164500956</ordres>
+          </coordrep>
+          <plandu />
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>dumps</enttypl>
+        <enttypd>FGDC Reqd</enttypd>
+        <enttypds>FGDC Reqd</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Comments</attrlabl>
+        <attrdef>Field provides any explanation of the landfill</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>TYPE</attrlabl>
+        <attrdef>Type of landfill (active, inactive, potential)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>NAME</attrlabl>
+        <attrdef>Name of landfill</attrdef>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>Detailed summary of the information contained in a data set. Can be in place of or in addition to the Detailed description.  For more information go here: http://www.fgdc.gov/metadata/csdgm/05.html
+
+
+FGDC Reqd</eaover>
+      <eadetcit>Reference to the complete description of the entity types, attributes, and attribute values for the data set.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Shapefile</formname>
+          <transize>0.010</transize>
+        </digtinfo>
+        <digtopt />
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20120712</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

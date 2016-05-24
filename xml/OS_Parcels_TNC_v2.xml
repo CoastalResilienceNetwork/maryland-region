@@ -1,0 +1,159 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Parcels_TNC</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This polygon feature class represents approximate parcel boundaries in Old Saybrook current to 2010. It originally was created from the Old Saybrook Assessor's set of tax maps and only is as accurate as the source maps. Parcel attributes include a subset of data from the Assessor's database. Location, dimensions, and accuracy of parcel boundaries can be established only by a land surveyor licensed in the state of Connecticut. The parcel feature class can only be used as a general guide to parcel boundaries and should be used only for planning purposes.</abstract>
+      <purpose>These data represent the 2010 version of parcel boundaries for the town of Old saybrook, CT</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-72.432895</westbc>
+        <eastbc>-72.342889</eastbc>
+        <northbc>41.341536</northbc>
+        <southbc>41.260763</southbc>
+      </bounding>
+    </spdom>
+    <keywords />
+    <accconst>None</accconst>
+    <useconst>Location, dimensions, and accuracy of parcel boundaries can be established only by a land surveyor licensed in the state of Connecticut. The parcel feature class can only be used as a general guide to parcel boundaries and should be used only for planning purposes. </useconst>
+    <datacred>Old Saybrook Land Use Department, Old Saybrook Assessor, Fuss and O'Neil, Inc.</datacred>
+    <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.2.3200</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>6326</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+          <mapprojp>
+            <otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]-20037700-30241100148923141.92838538-10000010000-100000100000.0010.0010.001true3857</otherprj>
+          </mapprojp>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000006714873101998366</absres>
+            <ordres>0.000000006714873101998366</ordres>
+          </coordrep>
+          <plandu>Meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Parcels_TNC</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MBL</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Zone_Class</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STNAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LOCATION</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GRANTEE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CO_GRANTEE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ADDRESS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ADDRESS2</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CITY</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STATE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ZIP</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BOOK_PAGE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PRICE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SALEDATE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>USECODE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ZONE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ACRES</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ASSESSED</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>APPRAISED</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LIVAREA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>AYB</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STYLE</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20120119</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

@@ -1,0 +1,127 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>2001 Census Divisons</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Layer identifies census divisions for the 2001 census. The file was received from the SVG Physical Planning department and was edited by TNC to better line up the boundaries with orthorectified imagery. The high-resolution coastline file was also added for a more detailed coastline. A description of each census field can be found in the Field and Subtypes part of the metadata.</abstract>
+      <purpose>Developed for the 2001 census. Resource developed to help summarize all the raw census information that was used to calculate the socioeconomic indices. This information will help inform the Nature Conservancy's AWE project. Scientists around the world agree that climate change is indisputable. Impacts, including rising sea levels, increased storm intensity, warming temperatures and acidifying waters, dying coral reefs, shifting fish stocks, and incidence of flooding and drought, are already being felt, and are expected to continue and increase for decades to come. Nature holds some of the world’s best and most practical solutions to climate change, solutions that keep nature and people healthy, safe, and secure. The goal of At the Water’s Edge (AWE) is to demonstrate that governments and people in vulnerable coastal communities in Grenada and St. Vincent &amp; the Grenadines (SVG) can enhance their resilience to climate change by protecting, restoring and effectively managing their marine and coastal ecosystems (also known as ecosystem-based adaptation or EBA) and strengthening local capacity for adaptation.</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-61.461308</westbc>
+        <eastbc>-61.113801</eastbc>
+        <northbc>13.385573</northbc>
+        <southbc>12.528737</southbc>
+      </bounding>
+    </spdom>
+    <accconst>None</accconst>
+    <useconst>This work is licensed under a Creative Commons Attribution-Noncommercial-Share Alike 3.0 License (http://creativecommons.org/licenses/by-nc-sa/3.0/). By using this information, you agree to these terms. </useconst>
+    <datacred>Created by Phyiscal Planning Department and TNC. Data collected from the SVG Census Department.</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.0.3035</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>13</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Transverse Mercator</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-63.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500956</absres>
+            <ordres>0.000000002220024164500956</ordres>
+          </coordrep>
+          <plandu />
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>svg_poli_censusdivisions_2001</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>T_CTRY1</attrlabl>
+        <attrdef>3 letter country identifier</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>T_CTRY2</attrlabl>
+        <attrdef>4 digit country identifier, same as calling code</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>C_CD</attrlabl>
+        <attrdef>Unique 2 digit census division identifier</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>T_CD</attrlabl>
+        <attrdef>Unique CD identifier consisting of 4 digit country code, and 2 digit C_CD</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>CDNAME</attrlabl>
+        <attrdef>Census Division Name</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AREASQM</attrlabl>
+        <attrdef>Area of census division in meters</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AREASQKM</attrlabl>
+        <attrdef>Area of census division in kilometers</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AREASQMI</attrlabl>
+        <attrdef>Area of census division miles</attrdef>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20130104</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

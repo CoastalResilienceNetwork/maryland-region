@@ -1,0 +1,71 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>fld_100yr</title>
+        <geoform>remote-sensing image</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The method of computing the storm surge scenarios involved calculations at two different scales: a) a general Caribbean Sea scale to obtain an overall representation of the storm characteristics; and b) a much more detailed Grenadine Bank scale. The computer program, MIKE 21 was used to simulate each storm’s shape, size, movement, and wind speed, integrating ocean depth and land elevation to estimate potential storm surge inundation levels. Both Lenny (1999 –category 4) and Ivan (2004 - upgraded to a category 5) hurricane tracks and all associated storm parameters (e.g. maximum wind speed, central and ambient pressure) were extracted from the NOAA database. The MIKE 21 program was able to estimate storm surge levels by tracking a number of factors within a “flexible computationalmesh”environment that computes wave and hydrodynamics. Factor that were incorporated into the model include pressure drops between the eye of the hurricane and the surrounding area, estimations of wind speed over the water surface, the height of the waves in deep water, nearshore bathymetry, and the amount of wave energy available to run up on to the land (wave run-up). To estimate the 100-year storm event, HURWave, a program that combines the NOAA database of hurricane tracks with advanced wind-distribution algorithms, was used to model deep-water wave conditions and estimate a 100-year storm return period and worst-case (maximum condition) approach for eight directional sectors within the Grenadine Bank. For additional details on the methodology, please refer to Smith and Warner International Final Report: Storm Surge Methodology Report: At the Water’s Edge: Coastal Resilience in Grenada and St. Vincent and the Grenadines.</abstract>
+      <purpose>These data were created under the direction of The Nature Conservancy for the Ecosystem Based Adaptation in the Grenadine Bank project (AWE). This project is built on the hypothesis that the neighboring and ecologically connected small island states in the Grenadine Bank can enhance the resilience of people and nature to climate change impacts by protecting, restoring and sustainably managing marine and coastal systems and strengthening community capacity for adaptation. </purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-61.802472</westbc>
+        <eastbc>-61.113293</eastbc>
+        <northbc>13.387629</northbc>
+        <southbc>11.983601</southbc>
+      </bounding>
+    </spdom>
+    <accconst>None</accconst>
+    <useconst>This work is licensed under a Creative Commons Attribution-Noncommercial-Share Alike 3.0 License (http://creativecommons.org/licenses/by-nc-sa/3.0/). By using this information, you agree to these terms.</useconst>
+    <datacred>Smith and Warner International (2012). Contact Conservation Information Manager, caribgis@tnc.org. </datacred>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcGIS 10.0.3.3600</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Pixel</rasttype>
+      <rowcount>30977</rowcount>
+      <colcount>14787</colcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Transverse Mercator</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-63.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500956</absres>
+            <ordres>0.000000002220024164500956</ordres>
+          </coordrep>
+          <plandu />
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <metainfo>
+    <metd>20120828</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

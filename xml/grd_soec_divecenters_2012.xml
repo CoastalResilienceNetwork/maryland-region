@@ -1,0 +1,149 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Dive Centers</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Layer indentifies the location of diver centers/dive shops throughout Grenada. The attribute table is incomplete pending data from the Grenada Scuba Diving Association (GSDA).  "No Data" values are represented as "-9999" in the attribute table.  </abstract>
+      <purpose>Developed to locate and visualize dive centers in Grenada. This information will help inform the Nature Conservancy's AWE project and the impact on tourism, recreation and businesses in certain communities during inundation events for Grenada. Scientists around the world agree that climate change is indisputable. Impacts, including rising sea levels, increased storm intensity, warming temperatures and acidifying waters, dying coral reefs, shifting fish stocks, and incidence of flooding and drought, are already being felt, and are expected to continue and increase for decades to come. Nature holds some of the world’s best and most practical solutions to climate change, solutions that keep nature and people healthy, safe, and secure. The goal of At the Water’s Edge (AWE) is to demonstrate that governments and people in vulnerable coastal communities in Grenada and St. Vincent and the Grenadines (SVG) can enhance their resilience to climate change by protecting, restoring and effectively managing their marine and coastal ecosystems (also known as ecosystem-based adaptation or EBA) and strengthening local capacity for adaptation.</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-61.792058</westbc>
+        <eastbc>-61.456735</eastbc>
+        <northbc>12.486175</northbc>
+        <southbc>11.999485</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Dive shops</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>This work is licensed under a Creative Commons Attribution-Noncommercial-Share Alike 3.0 License (http://creativecommons.org/licenses/by-nc-sa/3.0/). By using this information, you agree to these terms.</useconst>
+    <datacred>Created by Jerry J Mitchell for The Nature Conservancy (2012) caribgis@tnc.org</datacred>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcGIS 10.0.3.3600</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>10</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Transverse Mercator</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-63.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500956</absres>
+            <ordres>0.000000002220024164500956</ordres>
+          </coordrep>
+          <plandu />
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>grd_soec_divecenters_2012</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>T_CTRY1</attrlabl>
+        <attrdef>Country Code 1 - 3 letter country identifier</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>T_CTRY2</attrlabl>
+        <attrdef>Country Code 2 - 4 digit country identifier, same as calling code</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>T_PAR</attrlabl>
+        <attrdef>Parish Code - Unique 2 digit parish identifier</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>T_ED</attrlabl>
+        <attrdef>Unique census enumeration district identifier consisting of 4 digit country code, and 6 digit key</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ISLAND</attrlabl>
+        <attrdef>Name of island where feature is located</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>NAME</attrlabl>
+        <attrdef>Name of dive center</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>N_DIVEMSTR</attrlabl>
+        <attrdef>The number of dive masters</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>N_SKIPPERS</attrlabl>
+        <attrdef>The number of skippers</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>N_FULLEMP</attrlabl>
+        <attrdef>Number of full time employees</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>N_CUST</attrlabl>
+        <attrdef>Average number of customers per year</attrdef>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt />
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20120430</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

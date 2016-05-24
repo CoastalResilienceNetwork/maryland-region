@@ -1,0 +1,127 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Cell Towers</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Layer identifies the location of cell phone towers throughout St. Vincent and Grenadines. This data was obtained by Jerry Mitchell of Grenada through Ms. Apollo Knights of St. Vincent and Grenadines National Telecom. Regulatory Commission as an Excel Spreadsheet of coordinates and names. These coordinates were converted from DMS to DD by John Knowles of the Conservancy. Some of the coordinates were assumed incorrect and were deleted because they fell over water. Those assumed incorrect and deleted for LIME were named Palm Island to Jerome (61.24.08, 12.35.05), Mustique (61.11.25, 12.52.57) and Mt. Betink 2 (61.17.43.6, 13.17.07.7). Those assumed incorrect and deleted for Digicel were named Raffles, Greigs and Questelles 1. Duplicate points that represented multiple antenaes at one site were also deleted. For Digicel specifically these included Union 1, Young Island 1, Mustique 2, Bequia 1, Prospect, Mount Coke 4, Belmont, Belmont 10, Pilgrim Hill, Mespotamia, Massey, D'Hill to BoSVG, Dorsetshire Hill 4, Dorsetshire Hill 6, Monkey Hill, Pembrke Hill, Belle isle 1, Rose Hall 1, Fancy, Overland 1, Dixon, Kingstown Market 2, Happy Hill 2 and Sprotts. Every point for the LIME dataset had duplicates and those were removed. The files were merged to create one shapefile.</abstract>
+      <purpose>Resource developed to locate and document capacity of cell phone towers. This information will help inform The Nature Conservancy's AWE project. Scientists around the world agree that climate change is indisputable. Impacts, including rising sea levels, increased storm intensity, warming temperatures and acidifying waters, dying coral reefs, shifting fish stocks, and incidence of flooding and drought, are already being felt, and are expected to continue and increase for decades to come. Nature holds some of the world’s best and most practical solutions to climate change, solutions that keep nature and people healthy, safe, and secure. The goal of At the Water’s Edge (AWE) is to demonstrate that governments and people in vulnerable coastal communities in Grenada and St. Vincent and the Grenadines (SVG) can enhance their resilience to climate change by protecting, restoring and effectively managing their marine and coastal ecosystems (also known as ecosystem-based adaptation or EBA) and strengthening local capacity for adaptation.</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-61.433393</westbc>
+        <eastbc>-61.118566</eastbc>
+        <northbc>13.382387</northbc>
+        <southbc>12.534943</southbc>
+      </bounding>
+    </spdom>
+    <accconst>None</accconst>
+    <useconst>This work is licensed under a Creative Commons Attribution-Noncommercial-Share Alike 3.0 License (http://creativecommons.org/licenses/by-nc-sa/3.0/) By using this information, you agree to these terms.</useconst>
+    <datacred>Created by Jerry J Mitchell for The Nature Conservancy (2012) Caribgis@tnc.org</datacred>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcGIS 10.0.3.3600</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>77</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Transverse Mercator</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-63.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500956</absres>
+            <ordres>0.000000002220024164500956</ordres>
+          </coordrep>
+          <plandu />
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>svg_inf_celltowers_2012</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Name</attrlabl>
+        <attrdef>Name of cell tower</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>TYPE</attrlabl>
+        <attrdef>Specifies that the feature is a cell tower</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>C_CD</attrlabl>
+        <attrdef>Census Division Code - Unique 2 digit CD identifier</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>T_CD</attrlabl>
+        <attrdef>Unique census  division identifier consisting of 4 digit country code, and 2 digit CD Code</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>N_CUST</attrlabl>
+        <attrdef>The number of customers being serviced by that cell tower</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>T_CTRY1</attrlabl>
+        <attrdef>Country Code 1 - 3 letter country identifier</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>T_CTRY2</attrlabl>
+        <attrdef>Country Code 2 - 4 digit country identifier, same as calling code</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ISLAND</attrlabl>
+        <attrdef>Name of island where feature is located</attrdef>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20120712</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

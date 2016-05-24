@@ -1,0 +1,268 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Mangrove Vulnerability</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Two key datasets (among others) are needed to accurately model mangrove response to sea-level rise: accretion and erosion. Neither of these datasets were available in our study area and we were therefore unable to model how mangroves might specifically be impacted by SLR (i.e. how mangroves would be structured in space in the future based on SLR impacts). Given this limitation, we were only able to identify where mangroves could potentially move based on existing land use and land cover. A simple rule-based model was used to identify areas where mangroves could potentially move based on impediments to landward migration, and contiguity to existing mangroves. Mangrove migration impediments used in this analysis were buildings, roads, slopes greater than or equal to 10%, and elevations greater than or equal to 5 feet. In application, the mangrove migration analysis selected all landward areas that were contiguous to existing mangroves until it reached an abovementioned impediment. The results of the mangrove migration analysis were then included in the mangrove vulnerability analysis (represented as adaptive capacity potential), as described below. Eight measurable variables were then selected to characterize mangrove vulnerability at the mangrove patch level. See the rationale table and framework diagram in the final report for an explanation of why these variables were selected, how they are represented, and where they fall within the project vulnerability framework. The eight variables are as follows, followed by an explanation of how each variable was calculated/represented: 1. Size – size in square meters of each mangrove; classified 1 to 3 (low to high) based on quantile binning. 2. Shape – patch perimeter to area ratio; classified 1 to 3. 3. Sea-level rise exposure – percent of existing mangrove less than or equal to specified SLR; classified 1 to 3. 4. Coastal openness – relative positioning on the coast (protected bay vs. exposed coast); classified 1 to 3. This was calculated by using a viewshed function for selected places within each mangrove. The openness value was then averaged per mangrove. The end openness calculation is a proxy for knowing the relative impact of coastal fetch in a given place. 5. Room to migrate/migration index – percent of existing mangrove area available for landward migration beyond the mangrove. The output of the mangrove migration analysis described above was used to determine the amount of migration room for each existing mangrove; classified 1 to 3. 6. Habitat type – each mangrove was classified as fringe, riverine, basin, scrub or littoral habitats (Moore 2012). These classifications were given a 1 to 3 ranking based on their relative contribution to mangrove sensitivity. 7. Species richness – the number of mangrove species per mangrove patch was identified (Moore 2012). These classifications were given a 1 to 3 ranking based on their relative contribution to mangrove sensitivity. 8. Watershed characteristics – the watershed classification was based on each mangrove’s contributing basin size and the land use within each basin. The basin land use index was based on the percentage of basin containing either developed or agricultural land use; classified 1 to 3. The basin size index was based on the area of the basin, which was then classified 1 to 3. The final watershed classification as based on a summation of the basin land use and size indices; then classified on a 1 to 3 scale. The vulnerability index was calculated through a simple weighted summation of the 8 individual, classified variables. Due to the overwhelming importance of mangroves needing room to migrate, the migration index was weighted (x2) in the vulnerability index. The mangrove vulnerability index equation was as follows: Mangrove Vulnerability = shape + size + openness + SLR Exposure + habitat type + species richness + watershed index + (migration index * 2)</abstract>
+      <purpose>The purpose of this effort was to spatially characterize mangrove vulnerability across the Grenadine Bank using the best available data. This work builds upon Gregg Moore’s Indices Report by incorporating selected measurable indices/variables (or proxies for indices) into a spatial model. This information will help inform the Nature Conservancy's AWE project. Scientists around the world agree that climate change is indisputable. Impacts, including rising sea levels, increased storm intensity, warming temperatures and acidifying waters, dying coral reefs, shifting fish stocks, and incidence of flooding and drought, are already being felt, and are expected to continue and increase for decades to come. Nature holds some of the world’s best and most practical solutions to climate change, solutions that keep nature and people healthy, safe, and secure. The goal of At the Water’s Edge (AWE) is to demonstrate that governments and people in vulnerable coastal communities in Grenada and St. Vincent &amp; the Grenadines (SVG) can enhance their resilience to climate change by protecting, restoring and effectively managing their marine and coastal ecosystems (also known as ecosystem-based adaptation or EBA) and strengthening local capacity for adaptation.</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-61.797297</westbc>
+        <eastbc>-61.176457</eastbc>
+        <northbc>13.130244</northbc>
+        <southbc>11.989087</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>caribbean</themekey>
+        <themekey>st. vincent</themekey>
+        <themekey>grenadines</themekey>
+        <themekey>mangroves</themekey>
+        <themekey>grenadine bank</themekey>
+        <themekey>grenada</themekey>
+        <themekey>carriacou</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>This work is licensed under a Creative Commons Attribution-Noncommercial-Share Alike 3.0 License (http://creativecommons.org/licenses/by-nc-sa/3.0/). By using this information, you agree to these terms. </useconst>
+    <datacred>Completed in 2012 by Ben Gilmer of the Nature Conservancy. Contact Conservation Information Manager, caribgis@tnc.org.
+</datacred>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcGIS 10.0.3.3600</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>140</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Transverse Mercator</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-63.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500956</absres>
+            <ordres>0.000000002220024164500956</ordres>
+          </coordrep>
+          <plandu />
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>gsvg_mar_mangroves_2007_2012</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MANGID_FNL</attrlabl>
+        <attrdef>mangrove ID</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Name</attrlabl>
+        <attrdef>mangrove</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Source</attrlabl>
+        <attrdef>who created it/source</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>DOMVEG</attrlabl>
+        <attrdef>dominant vegetation type</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Habitat</attrlabl>
+        <attrdef>habitat type</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Richness</attrlabl>
+        <attrdef>species richness</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>RICH_CLS</attrlabl>
+        <attrdef>richness relcass</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>COUNTRY</attrlabl>
+        <attrdef>country</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ISLAND</attrlabl>
+        <attrdef>island</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>HAB_CLS</attrlabl>
+        <attrdef>habitat reclass</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ORIG_FID</attrlabl>
+        <attrdef>mangrove ID from original data</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>MOORE_FID</attrlabl>
+        <attrdef>mangrove ID from Gregg Moore</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>WTRSHD_M</attrlabl>
+        <attrdef>watershed area (meters</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AG_DEV_ARE</attrlabl>
+        <attrdef>square meters of agriculture and developed land use within each mangrove watershed/basin</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>PERC_AGDV</attrlabl>
+        <attrdef>percentage of mangrove watershed agriculture or developed land use</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>lulc_scal</attrlabl>
+        <attrdef>perc_agdv scaled to 0-100 scale</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>WTRSHD_SC</attrlabl>
+        <attrdef>watershed area scaled to 0-100</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LULC_CLS</attrlabl>
+        <attrdef>percentage of watershed agriculture of developed land use reclassed 1-3 (low to high)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>WTRAREA_CL</attrlabl>
+        <attrdef>scaled watershed area relcassed to 1 to 3</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LULC_WTRAR</attrlabl>
+        <attrdef>summation of lulc_cls (watershed containing developed and agriculture land use) and wtrarea_cls (scaled watershed area)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LULCWTR_CL</attrlabl>
+        <attrdef>reclassified lulc_wtrar to 1-3 (this is the watershed land use index)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SLR1M_MSQ</attrlabl>
+        <attrdef>area (sq meters) of mangrove equal to or less than 1 meter of elevation</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SLR2M_MSQ</attrlabl>
+        <attrdef>area (sq meters) of mangrove equal to or less than 2 meters of elevation</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>MANG_AREA</attrlabl>
+        <attrdef>Mangrove area (meters)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SLR1M_PER</attrlabl>
+        <attrdef>percentage of mangrove equal to or less than 1 meters in elevation</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SLR2M_PER</attrlabl>
+        <attrdef>percentage of mangrove equal to or less than 2 meters in elevation</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SLR1M_CLS</attrlabl>
+        <attrdef>SLR1m_per reclassed to 1-3</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SLR2M_CLS</attrlabl>
+        <attrdef>SLR2m_per reclassed to 1-3</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+        <attrdef>mangrove perimeter (meters)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SHAPEINDEX</attrlabl>
+        <attrdef>shape index equals patch perimter (m) divided by the square root of patch area, adjusted by a constant (.25) to adjust for a square standard.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SHAPEIND_C</attrlabl>
+        <attrdef>shapeindex relcassed to 1-3</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SIZE_CLS</attrlabl>
+        <attrdef>mangrove area reclassed to 1-3</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>MIGR_AREA</attrlabl>
+        <attrdef>area (meters) of potential migration room beyond and contiguous with mangrove</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>MIGR_INDEX</attrlabl>
+        <attrdef>mangove area divided by migr_area</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>MIGR_CLS</attrlabl>
+        <attrdef>migr_index relcassed 1-3</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>OPENNESS</attrlabl>
+        <attrdef>coastal openness/fetch calculation, showing each mangrove's relative position on the coast (e.g. protected bays vs. exposed outer coast)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>OPEN_CLS</attrlabl>
+        <attrdef>openness reclassified 1-3</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SENS_INDEX</attrlabl>
+        <attrdef>sensitivity index = [OPEN_CLS] + [SIZE_CLS] + [SHAPEIND_C] + [LULCWTR_CL] + [HAB_CLS] + [RICH_CLS] </attrdef>
+      </attr>
+      <attr>
+        <attrlabl>VULN_INDEX</attrlabl>
+        <attrdef>vulnerability index for 1m SLR = [OPEN_CLS] + ([MIGR_CLS] * 2) + [SIZE_CLS] + [SHAPEIND_C] + [SLR1M_CLS] + [LULCWTR_CL] + [HAB_CLS] + [RICH_CLS] </attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Vuln_2m</attrlabl>
+        <attrdef>vulnerability index for 2m SLR = [OPEN_CLS] + ([MIGR_CLS] * 2) + [SIZE_CLS] + [SHAPEIND_C] + [SLR2M_CLS] + [LULCWTR_CL] + [HAB_CLS] + [RICH_CLS] </attrdef>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20120626</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

@@ -1,0 +1,141 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: New York State Department of State, Division of Coastal Resources
+      Publication_Date: 200102
+      Title: Coastal Erosion Hazard Boundary
+      Edition: 1
+      Geospatial_Data_Presentation_Form: map
+      Publication_Information:
+        Publication_Place: Albany, NY
+        Publisher: New York State Department of State Division of Coastal Resources
+      Online_Linkage: 
+  Description:
+    Abstract: This data set covers the southern shore of Long Island from Queens to Montauk Point.  It is made up of lines representing the landward boundary of the coastal erosion hazard area.  Everything between this line and the coast is classified as the coastal erosion hazard area.  
+    Purpose: The data can be used for mapping and analysis.  
+    Supplemental_Information: The lines were digitized from 1988 coastal erosion hazard area maps which are aerial photographs overlaid by the coastal erosion hazard boundary.   These maps were provided by the New York State Department of Environmental Conservation.  The lines were digitized by using various landmarks on the aerial photographs as reference points.  After finding the reference points in the orthoimagery,  the lines were transferred to the 1994 digital orthoimagery using the graphics tools in a MapInfo map window.  The data set is more accurate in highly populated areas due to the presence of more easily identified landmarks.  In areas where there is no development, the accuracy is lower.  The scale of the data set is 1:12,000.  
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 2000
+        Ending_Date: 2001
+    Currentness_Reference: ground condition
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: None Planned
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate:  73.94
+      East_Bounding_Coordinate:   -71.86
+      North_Bounding_Coordinate:  41.07
+      South_Bounding_Coordinate:  40.55
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: NYS GIS Clearinghouse Categories
+
+      Theme_Keyword: Environmental, Economic.
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword:
+    Place:
+      Place_Keyword_Thesaurus: None
+      Place_Keyword: New York State, Long Island
+  Access_Constraints: None
+  Use_Constraints: This data set is not to be used for litigation or regulation in order to determine liability or the like.  It is for display and analysis only.  
+  Browse_Graphic:
+    Browse_Graphic_File_Name: 
+    Browse_Graphic_File_Description: 
+    Browse_Graphic_File_Type: 
+  Native_Data_Set_Environment: The lines were digitized using MapInfo 6.0 in a Windows NT environment.  
+Data_Quality_Information:
+  Logical_Consistency_Report:
+  Completeness_Report:
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report: 
+      Quantitative_Horizontal_Positional_Accuracy_Assessment:
+        Horizontal_Positional_Accuracy_Value: 
+        Horizontal_Positional_Accuracy_Explanation: 
+    Vertical_Positional_Accuracy:
+      Vertical_Positional_Accuracy_Report: 
+      Quantitative_Vertical_Positional_Accuracy_Assessment:
+        Vertical_Positional_Accuracy_Value: 
+        Vertical_Positional_Accuracy_Explanation:
+  Lineage:
+    Process_Step:
+      Process_Description:
+      Process_Date:
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: 
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: Universal Transverse Mercator
+        Universal_Transverse_Mercator:
+          UTM_Zone_Number: 18
+          Transverse_Mercator:
+            Scale_Factor_at_Central_Meridian:
+            Longitude_of_Central_Meridian:
+
+            Latitude_of_Projection_Origin:
+            False_Easting:
+            False_Northing:
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method:
+        Coordinate_Representation:
+          Abscissa_Resolution:
+          Ordinate_Resolution:
+        Planar_Distance_Units: meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name:
+      SemiMajor_Axis:
+      Denominator_of_Flattening_Ratio:
+Distribution_Information:
+  Distributor: New York State Department of State, Division of Coastal Resources
+    Contact_Information: Jeff Herter
+      Contact_Organization_Primary:
+        Contact_Organization: New York State Department of State, Division of Coastal Resources
+      Contact_Position: 
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: 41 State St.  8th Floor
+        City: Albany
+        State_or_Province: NY
+        Postal_Code: 12231-0001
+        Country: USA
+      Contact_Voice_Telephone: 518.474.6000
+      Contact_Facsimile_Telephone: 518.473.2464
+      Contact_Electronic_Mail_Address: jherter@dos.state.ny.gov
+  Resource_Description: 
+  Distribution_Liability: In no event shall the creators, custodians, or distributors of this information be liable for any damages arising out of its use (or inability to use it).  This applies to both the New York State Department of State and the New York State Department of Environmental Conservation.  
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name:
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name:
+
+    Fees: None
+Metadata_Reference_Information:
+  Metadata_Date: 20000213
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Jeff Herter
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: 41 State St.  8th Floor
+        City: Albany
+        State_or_Province: NY
+        Postal_Code: 12231-0001
+        Country: USA
+      Contact_Voice_Telephone:   518.474.6000
+      Contact_Facsimile_Telephone: 518.473.2464
+      Contact_Electronic_Mail_Address: jherter@dos.state.ny.gov
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDCSTD0011998
+

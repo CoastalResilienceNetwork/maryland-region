@@ -1,0 +1,141 @@
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>NY Villages</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>SOURCE: This map is a general purpose index map of New York villages based on information compiled at 1:125,000 scale (1 inch equals approximately 2 miles). The layer is designed to be used to depict NY villages at small scales or on small maps printed on regular size (8.5 x 11 inch) paper, for example. This layer does not accurately represent NY village boundaries because it was digitized at 1:125,000 scale. </abstract>
+      <purpose>
+
+Ecosystem-based, marine spatial planning offers great opportunity to place information representing multiple management objectives into a flexible decision support framework. This dataset is part of a larger framework used to represent biodiversity conservation and coastal hazard objectives in New York and Connecticut, USA. It is called Coastal Resilience. The Connecticut and New York shores have highly developed lands and valuable marine resources in the coastal zone. Much of the private property is only inches above sea level, placing millions of dollars in public and private funds at risk. This also threatens wetlands and other coastal ecosystems that provide habitat, natural buffers to storms and other services. Despite a growing awareness of global climate change, local decision makers still lack the tools to examine different management objectives as sea levels rise and coastal hazards increase. The Coastal Resilience project was designed to address these issues by providing tools to better inform decision-making. Coastal resilience describes the self-organizing ability of a coast to respond in a sustainable manner to morphological, biological and/or socio-economic pressures. A primary goal of the project is to design, build and discuss future climatic scenarios that account for sea level rise and storm surge while also identifying human communities that are vulnerable and at risk. The project also addresses the role of natural communities such as tidal marshes that may be more resilient to climatic stress and thereby provide protection to humans if they in turn are afforded protection. The Nature Conservancy, working with partners including the NASA Goddard Institute for Space Studies, the Association of State Floodplain Managers, the Pace Land Use Law Center and NOAA's Coastal Services Center have delivered this information via an internet mapping application to help local decision makers keep the environment and public safety in mind. Coastal Resilience Long Island (http://coastalresilience.org) is a unique interactive web mapping tool that provides three types of information to meet this need. First, it allows users to visualize the issue by exploring flooding scenarios resulting from sea level rise and storm surge. Second, users can see what?s at risk by viewing the interaction of flooding with ecological and socioeconomic resources. Finally, Coastal Resilience helps users identify what can be done to meet the joint objectives of ecosystem protection and community resilience. The information in Coastal Resilience is presented without hype or hyperbole in a user-friendly framework designed to inform the decision making process.</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-72.873387</westbc>
+        <eastbc>-72.688592</eastbc>
+        <northbc>41.248767</northbc>
+        <southbc>41.239822</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>biodiversity</themekey>
+        <themekey>conservation</themekey>
+        <themekey>coastal hazards</themekey>
+        <themekey>decision support</themekey>
+        <themekey>web mapping services</themekey>
+        <themekey>hazards</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The Nature Conservancy shall not be held liable for improper or incorrect use of the data described and/or contained herein. Any sale, distribution, loan, or offering for use of these digital data, in whole or in part, is prohibited without the approval of the Nature Conservancy. The use of these data to produce other GIS products and services with the intent to sell for a profit is prohibited without the written consent of the Nature Conservancy. All parties receiving these data must be informed of these restrictions. The Nature Conservancy shall be acknowledged as data contributors to any reports or other products derived from these data.</useconst>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.4.4000</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>4</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+          <mapprojp>
+            <otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]-20037700-3024110010000-10000010000-100000100000.0010.0010.001true3857</otherprj>
+          </mapprojp>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu />
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>
+PotentialMarshMigrationImped</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Id</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20120402</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>The Nature Conservancy</cntorg>
+          <cntper>Adam Whelchel</cntper>
+        </cntorgp>
+        <cntpos>Director of Science - Connecticut</cntpos>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <address>55 Church Street, Floor 3</address>
+          <city>New Haven</city>
+          <state>CT</state>
+          <postal>06510</postal>
+        </cntaddr>
+        <cntvoice>(203) 568-6296 </cntvoice>
+        <cntemail>awhelchel@tnc.org</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

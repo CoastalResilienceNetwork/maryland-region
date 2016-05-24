@@ -1,0 +1,115 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Beach</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>These data represent beaches in Grenada and St. Vincent and the Grenadines (SVG). Polygons for the country of Grenada were digitized from WorldView2 2010 orthophotos. SVG polygons were digitzed from 2007 aerial photos. Digitization was limited to the 10 meter elevation contour.</abstract>
+      <purpose>These data were created under the direction of The Nature Conservancy for the Ecosystem Based Adaptation in the Grenadine Bank project. This project is built on the hypothesis that the neighboring and ecologically connected small island states in the Grenadine Bank can enhance the resilience of people and nature to climate change impacts by protecting, restoring and sustainably managing marine and coastal systems and strengthening community capacity for adaptation. </purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-61.800872</westbc>
+        <eastbc>-61.113809</eastbc>
+        <northbc>13.386369</northbc>
+        <southbc>11.984932</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>caribbean</themekey>
+        <themekey>grenada</themekey>
+        <themekey>conservation</themekey>
+        <themekey>st. vincent</themekey>
+        <themekey>grenadines</themekey>
+        <themekey>beach</themekey>
+        <themekey>grenadine bank</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>This work is licensed under a Creative Commons Attribution-Noncommercial-Share Alike 3.0 License (http://creativecommons.org/licenses/by-nc-sa/3.0/). By using this information, you agree to these terms. </useconst>
+    <datacred>Completed 15 March 2012. Digitized by Teresa Gomez and Ryan Flake of BYU under contract by the Nature Conservancy. Contact Conservation Information Manager, caribgis@tnc.org.</datacred>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcGIS 10.0.3.3600</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>518</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Transverse Mercator</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-63.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500956</absres>
+            <ordres>0.000000002220024164500956</ordres>
+          </coordrep>
+          <plandu />
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>mar_beaches_2007_2010</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TYPE</attrlabl>
+        <attrdef>Designates a type to each feature.  Specifies whether the feature is a regular beach, a black sand beach, a white sand beach or a rocky beach.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Source</attrlabl>
+        <attrdef>Source of where feature was digitized or pulled from</attrdef>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20120329</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

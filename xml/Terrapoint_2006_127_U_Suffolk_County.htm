@@ -1,0 +1,546 @@
+<HTML>
+<HEAD>
+<TITLE> Suffolk County LiDAR Survey</TITLE>
+</HEAD>
+<BODY>
+<A NAME = top></A>
+<H2> Suffolk County LiDAR Survey</H2>
+<H3>Table of Contents</H3>
+<B>
+<UL>
+<A HREF="#t1">Identification Information</A><BR>
+<A HREF="#t2">Data Quality Information</A><BR>
+<A HREF="#t3">Spatial Data Organization Information</A><BR>
+<A HREF="#t4">Spatial Reference Information</A><BR>
+<A HREF="#t5">Entity and Attribute Information</A><BR>
+<A HREF="#t6">Distribution Information</A><BR>
+<A HREF="#t7">Metadata Reference Information</A><BR>
+</B>
+</UL>
+<HR>
+<PRE>
+<A NAME = "t1"></A>
+<H3>IDENTIFICATION_INFORMATION</H3>
+
+<B>  Citation:</B>
+<B>    Citation_Information:</B>
+<B>      Originator:</B> Terrapoint USA
+<B>      Publication_Date:</B> 20070528
+<B>      Title:</B> Suffolk County LiDAR Survey
+<B>      Edition:</B> One
+<B>      Geospatial_Data_Presentation_Form:</B> Map
+<B>      Publication_Information:</B>
+<B>        Publication_Place:</B> Houston, Texas
+<B>        Publisher:</B> Terrapoint USA
+<B>      Other_Citation_Details:</B>
+        Project Area = 2359 square kilometers 
+<B>        Two LiDAR Systems were used in the acquisition of this project:</B>
+        Optech 3100EA and Terrapoint ALTMS 20KHZ (U5)
+        - Sensor 1
+        Type Of Scanner = Optech 3100EA 
+        Data Acquisition Height = 1550 meters AGL 
+        Scanner Field Of View = 46 degrees 
+        Scan Frequency = 30.8 Hertz 
+        Pulse Repetition Rate = 71 Kilohertz 
+        Aircraft Speed = 150 Knots 
+        Swath Width = 1316 m
+        Nominal Ground Sample Distance = 1.25 meters (no overlap)
+        Number of Returns Per Pulse = 4 (last) 
+        Distance Between Flight Lines = 658m
+        - Sensor 2
+        Type Of Scanner = Terrapoint ALTMS (U5)
+        Data Acquisition Height = 1667 meters AGL 
+        ScannerField Of View = 46 degrees 
+        Scan Frequency = 64 Hertz 
+        Pulse Repetition Rate = 20 Kilohertz
+        Aircraft Speed = 150 Knots
+        Swath Width = 326 m
+        Nominal Ground Sample Distance = 1 meters (no overlap)
+        Number of Returns Per Pulse = 4 (last)
+        Distance Between Flight Lines = 164m
+<B>      Online_Linkage:</B> www.terrapoint.com
+<B>      Larger_Work_Citation:</B>
+<B>        Citation_Information:</B>
+<B>          Originator:</B> Terrapoint USA
+<B>          Publication_Date:</B> 20070130
+<B>          Title:</B> Suffolk County LiDAR Survey
+<B>          Publication_Information:</B>
+<B>            Publication_Place:</B> Houston, Texas
+<B>            Publisher:</B> Terrapoint USA
+<B>          Online_Linkage:</B> www.terrapoint.com
+<B>  Description:</B>
+<B>    Abstract:</B>
+      LIDAR data is remotely sensed high-resolution elevation
+      data collected by an airborne collection platform. By
+      positioning laser range finding with the use of 1 second
+      GPS with 100hz inertial measurement unit corrections;
+      Terrapoint's LIDAR instruments are able to make highly
+      detailed geospatial elevation products of the ground,
+      man-made structures and vegetation. The
+      LiDAR flightlines for this project was planned for a 50%
+      acquisition overlap. The nominal resolution of this project
+      without overlap is 1.25m (Optech) and 1m (ALTMS) spacing. Four
+      returns were recorded for each pulse in addition to an
+      intensity value. GPS Week Time, Echo, Intensity, Flightline number
+      and scan angle attributes were provided for each LiDAR point.
+      Data is provided as random points, in LAS v1.0 format,
+      classified according to ASPRS Class Code 2=Ground 1=Undefined.
+<B>    Purpose:</B>
+      The purpose of this LiDAR data was to produce high accuracy
+      3D elevation based geospatial products for coastal flood mapping.
+<B>    Supplemental_Information:</B>
+      Please note that the LiDAR intensity is not calibrated or
+      normalized. The intensity value is meant to provide
+      relative signal return strengths for features imaged by the
+      sensor.
+      Water is included in the bare earth ground model, except
+      where the entire tile is covered by water.
+<B>  Time_Period_of_Content:</B>
+<B>    Time_Period_Information:</B>
+<B>      Range_of_Dates/Times:</B>
+<B>        Beginning_Date:</B> 20070421
+<B>        Ending_Date:</B> 20070429
+<B>    Currentness_Reference:</B> Ground Condition
+<B>  Status:</B>
+<B>    Progress:</B> Complete
+<B>    Maintenance_and_Update_Frequency:</B> None planned
+<B>  Spatial_Domain:</B>
+<B>    Bounding_Coordinates:</B>
+<B>      West_Bounding_Coordinate:</B> -73.5039
+<B>      East_Bounding_Coordinate:</B> -71.8388
+<B>      North_Bounding_Coordinate:</B> 41.3238
+<B>      South_Bounding_Coordinate:</B> 40.5860
+<B>  Keywords:</B>
+<B>    Theme:</B>
+<B>      Theme_Keyword_Thesaurus:</B> None
+<B>      Theme_Keyword:</B> ASPRS standards
+<B>      Theme_Keyword:</B> DEM
+<B>      Theme_Keyword:</B> digital elevation model
+<B>      Theme_Keyword:</B> elevation
+<B>      Theme_Keyword:</B> LAS_v1.0
+<B>      Theme_Keyword:</B> laser
+<B>      Theme_Keyword:</B> LiDAR
+<B>      Theme_Keyword:</B> OPTECH_3100EA
+<B>      Theme_Keyword:</B> surface model
+<B>      Theme_Keyword:</B> topography
+<B>      Theme_Keyword:</B> Terrapoint ALTMS U5
+<B>    Place:</B>
+<B>      Place_Keyword_Thesaurus:</B> None
+<B>      Place_Keyword:</B> Suffolk County
+<B>      Place_Keyword:</B> Long Island
+<B>      Place_Keyword:</B> New York
+<B>      Place_Keyword:</B> Northeast
+<B>      Place_Keyword:</B> United States
+<B>  Access_Constraints:</B>
+    Dewberry & Davis LLC has full rights and ownership of this
+    LiDAR dataset; hence any data requests should be channeled
+    through Dewberry & Davis LLC.
+<B>  Use_Constraints:</B>
+    Any conclusions from results of the analysis of this LiDAR
+    are not the responsibility of Terrapoint. The LiDAR data
+    was thoroughly visually verified to represent the true
+    ground conditions at time of collection. Users should be
+    aware of this limitations of this dataset if using for
+    critical applications.
+<B>  Point_of_Contact:</B>
+<B>    Contact_Information:</B>
+<B>      Contact_Organization_Primary:</B>
+<B>        Contact_Organization:</B> Terrapoint USA
+<B>        Contact_Person:</B> Claude Vickers
+<B>      Contact_Position:</B> Production Manager
+<B>      Contact_Address:</B>
+<B>        Address_Type:</B> mailing and physical address
+<B>        Address:</B> 251216 Grogan's Park Drive
+<B>        City:</B> The Woodlands
+<B>        State_or_Province:</B> Texas
+<B>        Postal_Code:</B> 77380
+<B>        Country:</B> USA
+<B>      Contact_Voice_Telephone:</B> 1-877-80-TERRA
+<B>      Contact_Facsimile_Telephone:</B> 1-281-296-0869
+<B>      Contact_Electronic_Mail_Address:</B> claude.vickers@terrapoint.com
+<B>      Hours_of_Service:</B> Monday to Friday, 8:30 - 4:30, Eastern Time
+<B>  Native_Data_Set_Environment:</B>
+    ArcView version 3.1 shapefile format
+    c:\projects\6127_fgdc\basedata\suf_sp_col_index04.shp
+ 
+<A HREF="#top"><B>Top</B></A><BR>
+<HR>
+<A NAME = "t2"></A>
+<H3>DATA_QUALITY_INFORMATION</H3>
+
+<B>  Attribute_Accuracy:</B>
+<B>    Attribute_Accuracy_Report:</B>
+      Raw elevation measurements have been tested to 0.42 feet
+      vertical accuracy at 95 percent confidence level
+<B>  Logical_Consistency_Report:</B>
+    All LiDAR files delivered were verified and tested to
+    ensure they open and are positioned properly.
+<B>  Completeness_Report:</B>
+    According to Terrapoint standards; the following aspects of
+    the LiDAR data was verified during the course of the
+<B>    project processing:</B>
+    -Data completeness and integrity
+    -Data accuracy and errors
+    -Anomaly checks through full-feature hillshades
+    -Post automated classification Bare-earth verification
+    -RMSE inspection of final bare-earth model using kinematic
+    GPS
+    -Final quality control of deliverable products; ensuring
+    integrity; graphical quality; conformance to Terrapoint
+    standards are met for all delivered products.
+<B>  Positional_Accuracy:</B>
+<B>    Horizontal_Positional_Accuracy:</B>
+<B>      Horizontal_Positional_Accuracy_Report:</B>
+        Compiled to meet 3 foot vertical accuracy at the 95 percent
+        confidence level
+<B>    Vertical_Positional_Accuracy:</B>
+<B>      Vertical_Positional_Accuracy_Report:</B>
+        Tested 0.42 feet vertical accuracy at 95 percent
+        confidence level
+<B>  Lineage:</B>
+<B>    Source_Information:</B>
+<B>      Source_Citation:</B>
+<B>        Citation_Information:</B>
+<B>          Originator:</B>
+<B>          Publication_Date:</B> 20070130
+<B>          Title:</B> Suffolk LiDAR Survey
+<B>          Edition:</B> One
+<B>          Geospatial_Data_Presentation_Form:</B> map
+<B>          Publication_Information:</B>
+<B>            Publication_Place:</B> Houston, Texas
+<B>            Publisher:</B> Terrapoint USA
+<B>          Other_Citation_Details:</B>
+<B>          Online_Linkage:</B> www.terrapoint.com
+<B>          Larger_Work_Citation:</B>
+<B>            Citation_Information:</B>
+<B>              Originator:</B> Terrapoint USA
+<B>              Publication_Date:</B> 20070130
+<B>              Title:</B> Middlesex LiDAR Survey
+<B>              Publication_Information:</B>
+<B>                Publication_Place:</B> Houston, Texas
+<B>                Publisher:</B> Terrapoint USA
+<B>              Online_Linkage:</B> www.terrapoint.com
+<B>      Source_Scale_Denominator:</B> unknown
+<B>      Type_of_Source_Media:</B> Hard Drive
+<B>      Source_Time_Period_of_Content:</B>
+<B>        Time_Period_Information:</B>
+<B>          Range_of_Dates/Times:</B>
+<B>            Beginning_Date:</B> 200605
+<B>            Ending_Date:</B> 200701
+<B>        Source_Currentness_Reference:</B> unknown
+<B>      Source_Citation_Abbreviation:</B> 
+<B>      Source_Contribution:</B>
+        LiDAR data representing Suffolk County
+<B>    Source_Information:</B>
+<B>      Source_Citation:</B>
+<B>        Citation_Information:</B>
+<B>          Originator:</B> Terrapoint USA
+<B>          Publication_Date:</B> 20070528
+<B>          Title:</B> Suffolk County LiDAR Survey
+<B>          Edition:</B> One
+<B>          Geospatial_Data_Presentation_Form:</B> map
+<B>          Publication_Information:</B>
+<B>            Publication_Place:</B> Houston, Texas
+<B>            Publisher:</B> Terrapoint USA
+<B>          Other_Citation_Details:</B>
+<B>          Online_Linkage:</B> www.terrapoint.com
+<B>          Larger_Work_Citation:</B>
+<B>            Citation_Information:</B>
+<B>              Originator:</B> Terrapoint USA
+<B>              Publication_Date:</B> 20070130
+<B>              Title:</B> Suffolk County LiDAR Survey
+<B>              Publication_Information:</B>
+<B>                Publication_Place:</B> Houston, Texas
+<B>                Publisher:</B> Terrapoint USA
+<B>              Online_Linkage:</B> www.terrapoint.com
+<B>      Source_Scale_Denominator:</B> unknown
+<B>      Type_of_Source_Media:</B> Hard Drive
+<B>      Source_Time_Period_of_Content:</B>
+<B>        Time_Period_Information:</B>
+<B>          Range_of_Dates/Times:</B>
+<B>            Beginning_Date:</B> 200605
+<B>            Ending_Date:</B> 200701
+<B>        Source_Currentness_Reference:</B> unknown
+<B>      Source_Citation_Abbreviation:</B> 
+<B>      Source_Contribution:</B>
+        LiDAR data representing Suffolk County
+<B>    Process_Step:</B>
+<B>      Process_Description:</B>
+        - General Overview
+        The Airborne LiDAR survey was conducted using an OPTECH
+        3100EA flying at a nominal height of 1550 metres AGL with a
+        total angular coverage of 40 degrees and a Terrapoint ALTMS
+        U5 flying at a nominal height of 1067 metres with a total
+        angular coverage of 34 degrees . Flight line spacing was
+        nominally 564 metres for the Optech and 164 metres for the
+        ALTMS, providing overlap of 50% on adjacent flight lines.
+        All of the lines were flown in a general east/west
+        direction for the project. 
+        - Aircraft
+        Two aircrafts were used for the survey: a Piper Navajo,
+        registration C-GPJT and a Cessna 402, registration C-FFAP.
+        These aircrafts have a flight range of approximately 6.5
+        and a 7 hours respectively and were flown at an average
+        altitude of 1550 and 1067 metres AGL (Above Ground Level)
+        respectively, thereby encountering flying altitudes of
+        approximately 1550 and 1067 metres above Mean Sea Level
+        (MSL) respectively. The aircrafts were staged from the
+        Brookhaven NY Airport, and ferried daily to the project
+        site for flight operations.
+        - GPS Receivers
+        A combination of Sokkia GSR 2600 and NovAtel DL-4+ dual
+        frequency GPS receivers were used to support the airborne
+        operations of this survey and to establish the GPS control
+        network. 
+        - Number of Flights and Flight Lines
+        A total of 11 missions were flown for this project with
+        flight times ranging approximately 42 hours under good
+        meteorological and GPS conditions. A total of 262 flight lines
+        were flown over the project area to provide complete coverage.
+        The acquistion of this project was divided into two blocks to 
+<B>        maintain resonable length flight lines:</B>
+        East block = 107 flight lines
+        West block = 155 flight lines       
+<B>      Source_Used_Citation_Abbreviation:</B> Acquisition Process
+<B>      Process_Date:</B> 200604
+<B>      Source_Produced_Citation_Abbreviation:</B> ACQ
+<B>      Process_Contact:</B>
+<B>        Contact_Information:</B>
+<B>          Contact_Person_Primary:</B>
+<B>            Contact_Organization:</B> Terrapoint USA
+<B>            Contact_Person:</B> Shiva Shenoy
+<B>          Contact_Position:</B> Operations Manager
+<B>          Contact_Address:</B>
+<B>            Address_Type:</B> mailing and physical address
+<B>            Address:</B> 251216 Grogan's Park Drive
+<B>            City:</B> The Woodlands
+<B>            State_or_Province:</B> Texas
+<B>            Postal_Code:</B> 77380
+<B>            Country:</B> USA
+<B>          Contact_Voice_Telephone:</B> 1-877-80-TERRA
+<B>          Contact_Facsimile_Telephone:</B> 1-281-296-0869
+<B>          Contact_Electronic_Mail_Address:</B> shiva.shenoy@terrapoint.com
+<B>          Hours_of_Service:</B> Monday to Friday, 8:30 - 4:30, Central Time
+<B>    Process_Step:</B>
+<B>      Process_Description:</B>
+        - Airborne GPS Kinematic
+        Airborne GPS kinematic data was processed on-site using
+        GrafNav kinematic On-The-Fly (OTF) software. Flights were
+        flown with a minimum of 6 satellites in view (13o above the
+        horizon) and with a PDOP of better than 4.5. Distances from
+        base station to aircraft were kept to a maximum of 35 km,
+        to ensure a strong OTF (On-The-Fly) solution. For
+        all flights, the GPS data can be classified as excellent,
+        with GPS residuals of 5cm average but no larger than 9 cm
+        being recorded. 
+        - Calculation of 3D laser points (raw data)
+        The post-processing software to derive X, Y, Z values from
+        roll, pitch, yaw, and range is Optech's Realm. Data
+        - Classification and Editing
+        The data was processed using the software TerraScan, and
+        following the methodology described herein. The initial
+        step is the setup of the TerraScan project, which is done
+        by importing client provided tile boundary index
+        encompassing the entire project areas. The 3D laser point
+        clouds, in binary format, were imported into the TerraScan
+        project and divided in 5665 tiles, as per the contract
+        specifications. tiled, the laser points were classified
+        using a proprietary routine in TerraScan. This routine removes 
+        any obvious outliers from the dataset following which the
+        ground layer is extracted from the point cloud. The
+        ground extraction process encompassed in this routine takes
+        place by building an iterative surface model. This surface
+        model is generated using three main parameters: building
+        size, iteration angle and iteration distance. The
+        initial model is based on low points being selected by a
+        "roaming window" with the assumption is that these are the
+        ground points. The size of this roaming window is
+        determined by the building size parameter. The low points
+        are triangulated and the remaining points are evaluated and
+        subsequently added to the model if they meet the iteration
+        angle and distance constraints. This process is repeated
+        until no additional points are added within an iteration.
+        A critical parameter is the maximum terrain angle
+        constraint, which determines the maximum terrain angle
+        allowed within the classification model. The
+        data is then manually quality controlled with the use of
+        hillshading, cross-sections and profiles. Any points found
+        to be of class vegetation, building or error during the
+        quality control process, are removed from the ground model
+        and placed on the appropriate layer. An integrity check is
+        also performed simultaneously to verify that ground
+        features such as rock cuts, elevated roads and crests are
+        present.  Once data has been cleaned and complete, it is 
+        then reviewed by a supervisor via manual inspection and 
+        through the use of a hillshade mosaic of the entire project 
+        area.
+        -Projection Transformation
+        The data was processed in the native UTM zone in meters and
+        then transformed to the New York Long Island State Plane
+        final projection system and US survey feet using an
+        in-house transformation software which uses the Coorpscon DLL.
+<B>      Source_Used_Citation_Abbreviation:</B> Data Processing
+<B>      Process_Date:</B> 200605_200701
+<B>      Source_Produced_Citation_Abbreviation:</B> PRD
+<B>      Process_Contact:</B>
+<B>        Contact_Information:</B>
+<B>          Contact_Person_Primary:</B>
+<B>            Contact_Organization:</B> Terrapoint USA
+<B>            Contact_Person:</B> Claude Vickers
+<B>          Contact_Position:</B> Production Manager
+<B>          Contact_Address:</B>
+<B>            Address_Type:</B> mailing and physical address
+<B>            Address:</B> 251216 Grogan's Park Drive
+<B>            City:</B> The Woodlands
+<B>            State_or_Province:</B> Texas
+<B>            Postal_Code:</B> 77380
+<B>            Country:</B> USA
+<B>          Contact_Voice_Telephone:</B> 1-877-80-TERRA
+<B>          Contact_Facsimile_Telephone:</B> 1-281-296-0869
+<B>          Contact_Electronic_Mail_Address:</B> claude.vickers@terrapoint.com
+<B>          Hours_of_Service:</B> Monday to Friday, 8:30 - 4:30, Eastern Time
+
+<A HREF="#top"><B>Top</B></A><BR>
+<HR>
+<A NAME = "t3"></A>
+<H3>SPATIAL_DATA_ORGANIZATION_INFORMATION</H3>
+
+<B>  Direct_Spatial_Reference_Method:</B> Vector
+<B>  Point_and_Vector_Object_Information:</B>
+<B>    SDTS_Terms_Description:</B>
+<B>      SDTS_Point_and_Vector_Object_Type:</B> GT-polygon composed of chains
+<B>      Point_and_Vector_Object_Count:</B> 5665
+
+<A HREF="#top"><B>Top</B></A><BR>
+<HR>
+<A NAME = "t4"></A>
+<H3>SPATIAL_REFERENCE_INFORMATION</H3>
+ 
+<B>  Horizontal_Coordinate_System_Definition:</B>
+<B>    Planar:</B>
+<B>      Grid_Coordinate_System:</B>
+<B>        Grid_Coordinate_System_Name:</B> State Plane Coordinate System 1983
+<B>        State_Plane_Coordinate_System:</B>
+<B>          SPCS_Zone_Identifier:</B>  New York, Long Island
+<B>          Lambert_Conformal_Conic:</B>
+<B>            Standard_Parallel:</B> 40.666667
+<B>            Standard_Parallel:</B> 41.033333
+<B>            Longitude_of_Central_Meridian:</B> -74.000000
+<B>            Latitude_of_Projection_Origin:</B> 40.166667
+<B>            False_Easting:</B> 984249.999900
+<B>            False_Northing:</B> 0.000000
+<B>      Planar_Coordinate_Information:</B>
+<B>        Planar_Coordinate_Encoding_Method:</B> Coordinate pair
+<B>        Coordinate_Representation:</B>
+<B>          Abscissa_Resolution:</B> 0.01
+<B>          Ordinate_Resolution:</B> 0.01
+<B>        Planar_Distance_Units:</B> US Survey Feet
+<B>    Geodetic_Model:</B>
+<B>      Horizontal_Datum_Name:</B> North American Datum of 1983
+<B>      Ellipsoid_Name:</B> GRS 80
+<B>      Semi-major_Axis:</B> 20925604.4720406
+<B>      Denominator_of_Flattening_Ratio:</B> 298.26
+<B>  Vertical_Coordinate_System_Definition:</B>
+<B>    Altitude_System_Definition:</B>
+<B>      Altitude_Datum_Name:</B> North American Vertical Datum of 1988
+<B>      Altitude_Resolution:</B> 0.01
+<B>      Altitude_Distance_Units:</B> 0.01
+<B>      Altitude_Encoding_Method:</B> Explicit elevation coordinate included with horizontal coordinates
+<B>    Depth_System_Definition:</B>
+<B>      Depth_Datum_Name:</B> 
+<B>      Depth_Resolution:</B> 
+<B>      Depth_Distance_Units:</B> 
+<B>      Depth_Encoding_Method:</B> 
+
+<A HREF="#top"><B>Top</B></A><BR>
+<HR>
+<A NAME = "t5"></A>
+<H3>ENTITY_AND_ATTRIBUTE_INFORMATION</H3>
+
+<B>  Overview_Description:</B>
+<B>    Entity_and_Attribute_Overview:</B>
+      LiDAR point data in LAS 1.0 format
+      ASPRS cassfication scheme (1 = undefined; 2 = ground)
+<B>      Contains the following fields of information:</B>
+      Class, GPS WeekTime, Easting, Northing, Elevation, Scan
+      Angle(integer), Echo Number, Echo, Intensity, Flightline
+<B>    Entity_and_Attribute_Detail_Citation:</B>
+
+<A HREF="#top"><B>Top</B></A><BR>
+<HR>
+<A NAME = "t6"></A>
+<H3>DISTRIBUTION_INFORMATION</H3>
+
+<B>  Distributor:</B>
+<B>    Contact_Information:</B>
+<B>      Contact_Organization_Primary:</B>
+<B>        Contact_Organization:</B> Terrapoint USA
+<B>        Contact_Person:</B> Claude Vickers
+<B>      Contact_Position:</B> Production Manager
+<B>      Contact_Address:</B>
+<B>        Address_Type:</B> mailing and physical address
+<B>        Address:</B> 251216 Grogan's Park Drive
+<B>        City:</B> The Woodlands
+<B>        State_or_Province:</B> Texas
+<B>        Postal_Code:</B> 77380
+<B>        Country:</B> USA
+<B>      Contact_Voice_Telephone:</B> 1-877-80-TERRA
+<B>      Contact_Facsimile_Telephone:</B> 1-281-296-0869
+<B>      Contact_Electronic_Mail_Address:</B> claude.vickers@terrapoint.com
+<B>      Hours_of_Service:</B> Monday to Friday, 8:30 - 4:30, Eastern Time
+<B>  Resource_Description:</B>
+    The LiDAR data was captured for Dewberry & Davis for
+    coastal flood mapping purposes
+<B>  Distribution_Liability:</B>
+    Users must assume responsibilty to determine the
+    appropriate use of this LiDAR dataset.
+    The LiDAR has been compiled to 3 foot vertical accuracy;
+    tested to 0.42 feet vertical accuracy at 95 percent
+    confidence level.
+    Data is representative of ground conditions at time of
+    acquisition only.
+<B>  Standard_Order_Process:</B>
+<B>    Digital_Form:</B>
+<B>      Digital_Transfer_Information:</B>
+        Format_Name:LAS1.0
+<B>      Digital_Transfer_Option:</B>
+<B>        Offline_Option:</B>
+<B>          Offline_Media:</B> DVD, HD
+<B>          Recording_Format:</B> Standard
+<B>          Compatibility_Information:</B>
+<B>    Fees:</B> Current Handling and Processing Terrapoint Fees
+      Current Handling and Processing Terrapoint Fees
+      Current Terrapoint Handling and Processing Fees
+<B>    Ordering_Instructions:</B>
+      Proper release required from Dewberry & Davis LLC for
+      orders outside of Dewberry & Davis LLC. Please contact
+      Terrapoint sales for general Terrapoint LiDAR library sales.
+
+<A HREF="#top"><B>Top</B></A><BR>
+<HR>
+<A NAME = "t7"></A>
+<H3>METADATA_REFERENCE_INFORMATION</H3>
+
+<B>  Metadata_Date:</B> 20070531
+<B>  Metadata_Review_Date:</B> none
+<B>  Metadata_Contact:</B>
+<B>    Contact_Information:</B>
+<B>      Contact_Organization_Primary:</B>
+<B>        Contact_Organization:</B> Terrapoint USA
+<B>        Contact_Person:</B> Claude Vickers
+<B>      Contact_Position:</B> Production Manager
+<B>      Contact_Address:</B>
+<B>        Address_Type:</B> Mailing and physical address
+<B>        Address:</B> 251216 Grogan's Park Drive
+<B>        City:</B> The Woodlands
+<B>        State_or_Province:</B> Texas
+<B>        Postal_Code:</B> 77380
+<B>        Country:</B> USA
+<B>      Contact_Voice_Telephone:</B> 1-877-80-TERRA
+<B>      Contact_Facsimile_Telephone:</B> 1-281-296-0869
+<B>      Contact_Electronic_Mail_Address:</B> claude.vickers@terrapoint.com
+<B>      Hours_of_Service:</B> Monday to Friday, 8:30 - 4:30, Eastern Time
+<B>  Metadata_Standard_Name:</B> FGDC CSDGM
+<B>  Metadata_Standard_Version:</B> FGDC-STD-001-1998
+<A HREF="#top"><B>Top</B></A><BR>
+</PRE></BODY> </HTML>

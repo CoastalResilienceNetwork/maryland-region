@@ -1,0 +1,195 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>gsvg_mar_coralreef</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The coral reef file was created for the AWE Project being run by the Nature Conservancy. Four (4) coral reef datasets were used in creating just this one file. 1.) The Millenium Coral Reef Mapping Project (MCRMP) through IMaRS at USF with Dr. Serge Andrefouet being the principle investigator who developed a reef classification applied that to derived reef morphology from 30m Landsat data. 2.) A project dataset shared by the Planning Department of St. Vincent and the Grenadines which was developed for the SVG CRIS and data was digitized from LANDSAT 1999 by Alan Mills and others. 3.) Kim Baldwin's work through the MarSIS resulted in a benthic habitat file which she created by heads up digitizing effort using IKONOS imagery. This was cleaned up by John Knowles. 4). Contractors of the Nature Conservancy working from BYU digitized a few coral reef areas using aerial imagery from 2007 in SVG. The attribute table has two important fields. One is the Original Naming convention for each of these data sources. The second of the Ecological Gap Analysis Naming convention used during Grenada analysis. This naming convention is simplified from the reef classification of the MCRMP and more detailed than the other three datasets. It was a happy medium and was applied to most records. Some of the most important reef classes would be Intertidal Reef Flat, Reef Flat and Shoal by Grenada Ecological Gap standards.</abstract>
+      <purpose>These data layers were compiled for a protected area gap assessment for the countries of Grenada and St. Vincent and Grenadines. This project identified critical conservation targets and threats for these countries working with existing data layers from local governments filling data gaps through data creation through digitizing off high-resolution imagery. The objectives were to a) Develop a GIS-based geographic extent of the study area based, but not limited to, bathymetry, and other physiographic factors; b) Compile all existing GIS data layers for all terrestrial, freshwater, and marine biological conservation targets and socioeconomic threats; c) Analyze existent GIS data layers, identify gaps and fill them by creating data from primary image sources; d) Produce a final geodatabase and associated metadata.
+ 
+The Caribbean is one of the world's epicenters of biological diversity and species endemism with literally thousands of plants and animals found nowhere else on earth.  Conservation has proven a challenge in this large, diverse, and globally-important area - one the Nature Conservancy is addressing through a strong on-the-ground presence led by country programs that have science-based conservation strategies.   To address these problems and opportunities, The Nature Conservancy initiated Conservation Assessments for select countries within the Greater Caribbean Basin, designed to examine national biodiversity and the associated threats and conservation opportunities. To facilitate this approach, we have assembled, into a standard, seamless GIS database, the biological and socio-economic data necessary to analyze national-scale Caribbean biodiversity.
+ 
+We identified and mapped a range of coarse and fine-filter targets that represent a full spectrum of terrestrial, freshwater and marine biodiversity using combinations of biophysical factors (such as climate, geology, major habitat type, elevation, depth etc.). We assessed human impact in two ways: expert judgments and mapping of the relative intensity of human impacts.  Local experts provided judgments on the condition of targets and this information is combined with maps of human activities in order to determine relative human impacts.  Distribution of human activities is a critical factor in conservation and resource management.  Not all human activities are threats to biodiversity and determining relative human impact and predicting ecological health is necessary for sound management. Expert workshop were held to share existing and past planning efforts of the Grenadines landscape/seascape, select a set of conservation targets, and to assess the viability and stresses of these conservation targets.
+ 
+We suggest that by providing the latest analytical tools and comprehensive biodiversity and socio-economic data, we can assist
+conservation organizations, local communities and governments that are striving to meet their national or local conservation missions and leverage and enhance ongoing conservation efforts.  These data and tools can be used to enable sound, pragmatic conservation decisions at-scale. In this way, this assessment will serve to enhance and unify ongoing local and national conservation efforts and provide a common vision of conservation success throughout the Greater Caribbean.  We suggest that use of the data and tools can facilitate strategic partnerships amongst both local and regional organizations across the Caribbean Basin, a key to achieving lasting results to protect the region's irreplaceable terrestrial, freshwater, coastal and marine biodiversity</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-61.803335</westbc>
+        <eastbc>-61.122131</eastbc>
+        <northbc>13.134897</northbc>
+        <southbc>11.978774</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Reef</themekey>
+        <themekey>Classification</themekey>
+        <themekey>Marine</themekey>
+        <themekey>Ocean</themekey>
+        <themekey>shelf</themekey>
+        <themekey>barrier reef</themekey>
+        <themekey>lagoon</themekey>
+        <themekey>archipelagic</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The Nature Conservancy shall not be held liable for improper or incorrect use of the data described and/or contained herein. Any sale, distribution, loan, or offering for use of these digital data, in whole or in part, is prohibited without the approval of the Nature Conservancy. The use of these data to produce other GIS products and services with the intent to sell for a profit is prohibited without the written consent of the Nature Conservancy. All parties receiving these data must be informed of these restrictions. The Nature Conservancy shall be acknowledged as data contributors to any reports or other products derived from these data.</useconst>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcGIS 10.0.3.3600</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>577</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Transverse Mercator</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-63.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500956</absres>
+            <ordres>0.000000002220024164500956</ordres>
+          </coordrep>
+          <plandu />
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>reef_class</enttypl>
+        <enttypd>FGDC Reqd</enttypd>
+        <enttypds>FGDC Reqd</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GRIDCODE</attrlabl>
+        <attrdef>A code used by the Millennium Coral Reef Mapping Project (MCRMP) which is not a sequential number since codes have been added to the list
+when new reef types were mapped.  GRIDCODE
+attribute is the common link with all existing versions of the Millennium
+products from January 2004 until December 2006.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>L2_CODE</attrlabl>
+        <attrdef>Numeric encoding of L2_ATTRIB</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>L2_ATTRIB</attrlabl>
+        <attrdef>Second hierarchical node in the hierarchy of reef types: separates each of the L1 categories into broad geomorphological reef complexes: atoll, bank, island, outer shelf barrier reef, intra-shelf barrier reef, fringing reef, shelf reef.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>L3_CODE</attrlabl>
+        <attrdef>Numeric encoding of L3_ATTRIB</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>L3_ATTRIB</attrlabl>
+        <attrdef>Third hierarchical node in the hierarchy of reef types: separates each of the L2 broad geomorphological reef complexes into specific sub-complexes reflecting different exposure.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>L4_CODE</attrlabl>
+        <attrdef>Numeric encoding of the L4_ATTRIB</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>L4_ATTRIB</attrlabl>
+        <attrdef>Set of geomorphological units detectable with Landsat images.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Source</attrlabl>
+        <attrdef>Source of where feature was digitized or pulled from</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>DIGITISER</attrlabl>
+        <attrdef>Name of person who digitized feature for the SVG CRIS product</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>DATE</attrlabl>
+        <attrdef>Date of when feature was digitized during the SVG CRIS product</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>OrignlName</attrlabl>
+        <attrdef>Original naming convention for each feature</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>EcoGapName</attrlabl>
+        <attrdef>Names used for ecological gap analysis for Grenada applied across all features</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>infdis_pro</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>weight_pro</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>intsty_pro</attrlabl>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>Detailed summary of the information contained in a data set. Can be in place of or in addition to the Detailed description.  For more information go here: http://www.fgdc.gov/metadata/csdgm/05.html
+
+
+FGDC Reqd</eaover>
+      <eadetcit>Reference to the complete description of the entity types, attributes, and attribute values for the data set.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Shapefile</formname>
+          <transize>0.556</transize>
+        </digtinfo>
+        <digtopt />
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20120424</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

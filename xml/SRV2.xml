@@ -1,0 +1,135 @@
+﻿
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>BenthicHabitats_SS</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>In June 2002, 200 1:20,000 scale conventional-color metric film diapositives for Long Island,New York were collected as part of an effort to map submerged aquatic vegetation (SAV) in Long Island’s South Shore bays.They were provided by New York State Department of State's Division of Coastal Resources. Photographs were taken at low tide and during times that the growth stage of the SAV allowed for clear identification. Care was taken to minimize the effects of turbidity, sun glint, wind, and haze on the photos. The photos were scanned at a resolution of 15 microns. Ground control points were collected primarily from NYSDS 2 ft orthophotos. Additional control points were collected from USGS DOQQs where coverage from the primary source was lacking. All elevations were derived from USGS digital elevation models. A bundle block adjustment was performed using Albany and exterior orientation paramaters were calculated. Boeing/Autometric's Softplotter was used to orthorectify the photos. The images were then dodged and mosaicked using Z/I's Orthopro. No additional color-balancing was performed as the mosaic's intended purpose was the delineation of benthic habitats. The mosaic was then output into 1000m by 1000m tiles with a 0.5m pixel resolution. The naming convention uses the first 3 numbers of the UTM x coordinate followed by the first 4 numbers in the UTM y coordinate of the southwest corner. Stereo digital images were created and the habitat features were interpreted and digitized on screen using softplotter microstation resulting in accurate and efficient 3D extraction of the data. Habitats were delineated with a high level of detail with the minimum mapping unit (MMU) being 0.01 hectares(approx.10m x 10m).The digitized polygons have the following specifications: Vertex Distance The collected data was converted to an ARCGIS format for quality control and delivery. The data was assessed for horizontal spatial accuracy and thematic agreement during 2003.</abstract>
+      <purpose>At the urging of Long Island citizens, the New York State Legislature passed the Long Island South Shore Estuary Reserve Act in 1993. The Act recognized the South Shore Estuary as an unparalleled resource and provided for development of a Comprehensive Management Plan (CMP) to improve and protect the health of the estuary's ecosystem while increasing public access opportunities and sustaining economic activities. The Act also created a South Shore Estuary Reserve Council to prepare the plan and promote its implementation. The Council represents local governments, commercial and recreational fishing businesses, business associations, conservation and scientific organizations, education institutions and three State agencies including the New York State Department of State’s Division of Coastal Resources. One of the critical needs identified by the CMP is a baseline inventory of Submerged Aquatic Vegetation (SAV) resources, one of the Reserve’s most important living marine resources. Following the establishment of a comprehensive baseline SAV data set, the CMP calls for a long term monitoring program The monitoring will be designed to evaluate the level of success in attainment of specific site goals and the cumulative achievement of projected improvements in estuarine resources from habitat restoration and protection activities. The ultimate goal is to support productivity of commercially and ecologically important estuarine species by sustaining existing habitats of high functional quality and restoring degraded habitats. This data set will serve as the baseline inventory of benthic habitats for the Reserve.</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-73.751793</westbc>
+        <eastbc>-72.412557</eastbc>
+        <northbc>40.885376</northbc>
+        <southbc>40.583197</southbc>
+      </bounding>
+    </spdom>
+    <keywords />
+    <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.0.2414</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>2396</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+          <mapprojp>
+            <otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]-20037700-3024110010000-10000010000-100000100000.0010.0010.001true3857</otherprj>
+          </mapprojp>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>Meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>BenthicHabitats_SS</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>MODIFIER</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FINAL_POLY</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FINAL_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SCHEME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CLASS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SUBCLASS1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SUBCLASS2</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SUBCLASS3</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20120425</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

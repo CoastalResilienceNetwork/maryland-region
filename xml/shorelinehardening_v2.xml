@@ -1,0 +1,184 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Hardening</title>
+        <geoform>vector digital data</geoform>
+        <onlink>file://\\NYLI-4180611\C$\GIS\Shoreline\Hardening.shp</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <purpose>A shoreline analysis was conducted using ESRI's ArcMap Geographic Information Systems software. Ortho-rectified aerial photos conducted by Suffolk County in the spring of 2004 were used to identify shoreline structures. A new tool, Pictometry, which uses oblique images taken in 2006 as well as direct overhead aerial photos (also from 2006), was used to further validate a structures presence as well as what it's intended function was. </purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-73.42783</westbc>
+        <eastbc>-72.873509</eastbc>
+        <northbc>40.774682</northbc>
+        <southbc>40.614551</southbc>
+      </bounding>
+    </spdom>
+    <keywords />
+    <datacred>The Nature Conservancy</datacred>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.0.1324</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>3782</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 StatePlane New York Long Island FIPS 3104 Feet</mapprojn>
+          <lambertc>
+            <stdparll>40.66666666666666</stdparll>
+            <stdparll>41.03333333333333</stdparll>
+            <longcm>-74.0</longcm>
+            <latprjo>40.16666666666666</latprjo>
+            <feast>984250.0</feast>
+            <fnorth>0.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0003280833333333334</absres>
+            <ordres>0.0003280833333333334</ordres>
+          </coordrep>
+          <plandu>Foot_US</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Hardening</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>Length</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Id</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Feature</attrlabl>
+        <attrdomv>
+          <edom>
+            <edomv>BK</edomv>
+            <edomvd>Bulkhead</edomvd>
+            <edomvds>Bulkheads are structures placed along the shore to protect the property directly behind it from the naturally erosive forces of waves and tides.  These structures are generally vertical and can be constructed from wood, concrete or metal.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Boardwalk</edomv>
+            <edomvd>Boardwalk</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Boat Ramp</edomv>
+            <edomvd>Boat Ramp</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>BW</edomv>
+            <edomvd>Breakwaters</edomvd>
+            <edomvds>Breakwaters are structures that are constructed parallel or nearly parallel to shore to block wave energy that would otherwise impact the shore or a marina basin.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Culvert</edomv>
+            <edomvd>Culvert</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>GR</edomv>
+            <edomvd>Groins</edomvd>
+            <edomvds>Groins are structures that are place perpendicular to short originating from the uppermost part of the beach and extend out into the water.  The purpose of these structures is to trap sediment as it moves along shore.  The result is a loss of sediment downdrift of the groin.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>JT</edomv>
+            <edomvd>Jetties</edomvd>
+            <edomvds>Jetties are also structures placed perpendicular to shore to stop sediment and water movement.  Jetties are only used at the openings of inlets, canals, and tributaries to prevent sediment from filling in these waterways.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NS</edomv>
+            <edomvd>Natural Shoreline</edomvd>
+            <edomvds>Portions of the shoreline that were not hardened were characterized as Natural Shoreline. This was not completed for the entire study area, and it should only be used as such (incomplete).</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Piers (Included in Seperate Polygon shapefile- Piers.shp)</edomv>
+            <edomvd>Piers</edomvd>
+            <edomvds>Piers were identified in a separate polygon file within this project due to their large size.  Piers are structures that are built out into the water.  A bulkhead is usually constructed and then fill is placed behind it to create more land.  They can be constructed out of bulkheaded material and fill, or wood on top of pilings.  Wooden piers are distinct from docks it they significantly impede water and sediment movements.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>RR</edomv>
+            <edomvd>Rip-Rap</edomvd>
+            <edomvds>Rip-rap refers to any material laid upon the shoreline to prevent the naturally erosive forces of wind and tide.  Rip-rap can consist of piles of broken concrete, torn up asphalt, and quarried boulders.  A more organized and effective form of rip-rap known as, gambion, is also included in this feature class.  Gambion often consists of rocks and boulders packed into large wire mesh bags.  These bags are then laid upon the shore and often bound together to make one larger structure.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Certainty</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20070710</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>
