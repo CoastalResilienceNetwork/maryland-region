@@ -1,6 +1,6 @@
 [
     {
-        "displayName": "Natural Land",
+        "displayName": "Tidal Marsh and Risk Analyses",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
@@ -11,11 +11,31 @@
         },
         "includeLayers": [
             {
-                "name": "Shoreline Points"
+                "name": "Shoreline Points",
+                "displayName": "Shoreline Points",
+                "includeLayers": [
+                    {
+                        "name": "Priority Shoreline Areas",
+                        "server": {
+                            "type": "ags",
+                            "layerType": "dynamic",
+                            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Maryland/",
+                            "name": "Maryland"
+                        }
+                    },
+                    {
+                        "name": "Shoreline Hazard Index without Habitats"
+                    },
+                    {
+                        "name": "Potential Hazard Reduction by Habitats"
+                    },
+                    {
+                        "name": "Counties"
+                    }
+                ]
             },
             {
-                "name": "Marsh Potential Protection Index",
-                "opacity": 0.5
+                "name": "Marsh Protection Potential Index"
             },
             {
                 "name": "Community Flood Risk Areas",
