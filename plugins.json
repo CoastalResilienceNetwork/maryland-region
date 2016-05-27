@@ -7,10 +7,6 @@
     {
       "repo": "explorer",
       "name": "risk_explorer"
-                },
-    {
-      "repo": "map-tree",
-      "name": "layer_selector"
     }
   ]
 }
